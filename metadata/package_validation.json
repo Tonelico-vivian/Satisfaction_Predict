@@ -1,0 +1,13 @@
+{
+  "checked_date": "2026-11-13",
+  "python_syntax": "passed",
+  "json_parse": "passed",
+  "markdown_local_links": "passed",
+  "family_and_estimator_ast_equivalence": "passed",
+  "member_source_coverage": 245,
+  "included_report_count": 8,
+  "csv_files": 0,
+  "original_model_sha256": "0201c4c4f2eb928480e9e544bdb50d08e208b7000731659b6fba61320b719758",
+  "numerical_rerun": false,
+  "reason": "Original project virtualenv and raw competition/public input files are absent in the current environment."
+}

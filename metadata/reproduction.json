@@ -1,0 +1,12 @@
+{
+  "model_sha256": "0201c4c4f2eb928480e9e544bdb50d08e208b7000731659b6fba61320b719758",
+  "submission_sha256": "f1b704c31df2946eb2986419882ad43c4088952e58df36b480e8607ce23917d9",
+  "matrix_sha256": {
+    "oof_logits.npy": "f30750b44f00454c5af59eb77bd04532d3ceef0f2ec611401689d82ee810ea5a",
+    "test_logits.npy": "72c5a812bb2ed7c0bc5a8bc9771be57cbb94fa8201fe826587efa03fa07685a5"
+  },
+  "original_source_sha256": "8b316d4e1e1605a872714400d0b7250f3eb14ddc3f5ab7d863944cc7fabb76ba",
+  "original_protocol_sha256": "a1f95065270a79254b18269a8177a8b12f1a0fef20ec7167fdc3e69c6f2fb564",
+  "model_original_protocol_note": "The included historical model retains the original training protocol hash. The standalone code has a separate protocol file.",
+  "standalone_validation": "Static checks and original model hash verification; no new numerical run because original virtualenv and raw data are absent."
+}

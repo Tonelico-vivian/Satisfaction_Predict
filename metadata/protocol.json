@@ -1,0 +1,22 @@
+{
+  "C": 0.003,
+  "tol": 0.0001,
+  "max_iter": 5000,
+  "solver": "lbfgs",
+  "family_scales": {
+    "tabpfn": 3,
+    "tfm": 1.5,
+    "mlp": 1,
+    "gbdt": 1
+  },
+  "validation_scope": "meta-level CV of fixed public OOF, not fully nested base retraining",
+  "python": "3.9.19",
+  "sklearn": "1.6.1",
+  "seeds": [
+    7,
+    13,
+    101
+  ],
+  "folds": 5,
+  "method": "245-member family-regularized logistic regression"
+}

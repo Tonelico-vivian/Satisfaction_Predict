@@ -1,0 +1,4348 @@
+[
+  {
+    "index": 0,
+    "name": "ar_cat_5f",
+    "source_tag": "core",
+    "files": [
+      "core/oof_ar_cat_5f.npy",
+      "core/test_ar_cat_5f.npy"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "logit",
+    "oof_auc": 0.9609400448773212,
+    "oof_min": -2.0011892318725586,
+    "oof_max": 2.262895345687866,
+    "test_min": -1.6814053058624268,
+    "test_max": 2.048893690109253,
+    "family": "gbdt",
+    "scale": 1.0
+  },
+  {
+    "index": 1,
+    "name": "ar_lgb_5f",
+    "source_tag": "core",
+    "files": [
+      "core/oof_ar_lgb_5f.npy",
+      "core/test_ar_lgb_5f.npy"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "logit",
+    "oof_auc": 0.9610288520218457,
+    "oof_min": -1.5372366905212402,
+    "oof_max": 2.1328835487365723,
+    "test_min": -1.537785530090332,
+    "test_max": 2.056518793106079,
+    "family": "gbdt",
+    "scale": 1.0
+  },
+  {
+    "index": 2,
+    "name": "ar_realmlp_5f",
+    "source_tag": "core",
+    "files": [
+      "core/oof_ar_realmlp_5f.npy",
+      "core/test_ar_realmlp_5f.npy"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "logit",
+    "oof_auc": 0.9608794654513024,
+    "oof_min": -1.6648441553115845,
+    "oof_max": 2.393404483795166,
+    "test_min": -1.6073589324951172,
+    "test_max": 2.324119806289673,
+    "family": "mlp",
+    "scale": 1.0
+  },
+  {
+    "index": 3,
+    "name": "ar_xgb_5f",
+    "source_tag": "core",
+    "files": [
+      "core/oof_ar_xgb_5f.npy",
+      "core/test_ar_xgb_5f.npy"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "logit",
+    "oof_auc": 0.9610491579918103,
+    "oof_min": -1.7586692571640015,
+    "oof_max": 2.3782176971435547,
+    "test_min": -1.611559271812439,
+    "test_max": 2.2708356380462646,
+    "family": "gbdt",
+    "scale": 1.0
+  },
+  {
+    "index": 4,
+    "name": "bp_cat",
+    "source_tag": "core",
+    "files": [
+      "core/oof_bp_cat.npy",
+      "core/test_bp_cat.npy"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.960887094422693,
+    "oof_min": 0.0032419979106634855,
+    "oof_max": 0.9972394704818726,
+    "test_min": 0.004986812826246023,
+    "test_max": 0.9960904121398926,
+    "family": "gbdt",
+    "scale": 1.0
+  },
+  {
+    "index": 5,
+    "name": "bp_lgbm",
+    "source_tag": "core",
+    "files": [
+      "core/oof_bp_lgbm.npy",
+      "core/test_bp_lgbm.npy"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9610579559031751,
+    "oof_min": 0.004737786948680878,
+    "oof_max": 0.9975511431694031,
+    "test_min": 0.006703644525259733,
+    "test_max": 0.9969195127487183,
+    "family": "gbdt",
+    "scale": 1.0
+  },
+  {
+    "index": 6,
+    "name": "bp_lgbm_xt",
+    "source_tag": "core",
+    "files": [
+      "core/oof_bp_lgbm_xt.npy",
+      "core/test_bp_lgbm_xt.npy"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9609295772840607,
+    "oof_min": 0.0021992612164467573,
+    "oof_max": 0.9977299571037292,
+    "test_min": 0.003387851407751441,
+    "test_max": 0.9970652461051941,
+    "family": "gbdt",
+    "scale": 1.0
+  },
+  {
+    "index": 7,
+    "name": "bp_realmlp",
+    "source_tag": "core",
+    "files": [
+      "core/oof_bp_realmlp.npy",
+      "core/test_bp_realmlp.npy"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9612163156466179,
+    "oof_min": 0.0012493826216086745,
+    "oof_max": 0.9995276927947998,
+    "test_min": 0.0027235473971813917,
+    "test_max": 0.9992932677268982,
+    "family": "mlp",
+    "scale": 1.0
+  },
+  {
+    "index": 8,
+    "name": "bp_xgb",
+    "source_tag": "core",
+    "files": [
+      "core/oof_bp_xgb.npy",
+      "core/test_bp_xgb.npy"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9610200590768041,
+    "oof_min": 0.0051125939935445786,
+    "oof_max": 0.9977126121520996,
+    "test_min": 0.007533844094723463,
+    "test_max": 0.9970661401748657,
+    "family": "gbdt",
+    "scale": 1.0
+  },
+  {
+    "index": 9,
+    "name": "gl_a",
+    "source_tag": "core",
+    "files": [
+      "core/oof_gl_a.npy",
+      "core/test_gl_a.npy"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9595680691287365,
+    "oof_min": 0.0021351948669345263,
+    "oof_max": 0.992255629097373,
+    "test_min": 0.0018397136268777001,
+    "test_max": 0.9914048341846122,
+    "family": "gbdt",
+    "scale": 1.0
+  },
+  {
+    "index": 10,
+    "name": "gl_b",
+    "source_tag": "core",
+    "files": [
+      "core/oof_gl_b.npy",
+      "core/test_gl_b.npy"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9587269567413487,
+    "oof_min": 0.0010391214163973927,
+    "oof_max": 0.9977040886878967,
+    "test_min": 0.0013025290565565229,
+    "test_max": 0.9959776639938355,
+    "family": "gbdt",
+    "scale": 1.0
+  },
+  {
+    "index": 11,
+    "name": "gl_c",
+    "source_tag": "core",
+    "files": [
+      "core/oof_gl_c.npy",
+      "core/test_gl_c.npy"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9583383960911827,
+    "oof_min": 0.0009385740968924679,
+    "oof_max": 0.9988978915579089,
+    "test_min": 0.0009763824214963728,
+    "test_max": 0.9982054900318238,
+    "family": "gbdt",
+    "scale": 1.0
+  },
+  {
+    "index": 12,
+    "name": "gl_d",
+    "source_tag": "core",
+    "files": [
+      "core/oof_gl_d.npy",
+      "core/test_gl_d.npy"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9583406464065811,
+    "oof_min": 0.001661611203625278,
+    "oof_max": 0.9947202361055504,
+    "test_min": 0.0026708296640163666,
+    "test_max": 0.9902086234039359,
+    "family": "gbdt",
+    "scale": 1.0
+  },
+  {
+    "index": 13,
+    "name": "gl_e",
+    "source_tag": "core",
+    "files": [
+      "core/oof_gl_e.npy",
+      "core/test_gl_e.npy"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9568174631727482,
+    "oof_min": 0.0007677430152901488,
+    "oof_max": 0.9997782319190209,
+    "test_min": 0.000948132711903038,
+    "test_max": 0.9992248568528318,
+    "family": "gbdt",
+    "scale": 1.0
+  },
+  {
+    "index": 14,
+    "name": "gl_f",
+    "source_tag": "core",
+    "files": [
+      "core/oof_gl_f.npy",
+      "core/test_gl_f.npy"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9488654959310069,
+    "oof_min": 0.00035426614478188055,
+    "oof_max": 0.9997245193839921,
+    "test_min": 0.0004424447405698065,
+    "test_max": 0.9995358676655111,
+    "family": "gbdt",
+    "scale": 1.0
+  },
+  {
+    "index": 15,
+    "name": "gl_g",
+    "source_tag": "core",
+    "files": [
+      "core/oof_gl_g.npy",
+      "core/test_gl_g.npy"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9545918709531485,
+    "oof_min": 0.020415538824404094,
+    "oof_max": 0.971908159430264,
+    "test_min": 0.022846806183052293,
+    "test_max": 0.9696523015775309,
+    "family": "gbdt",
+    "scale": 1.0
+  },
+  {
+    "index": 16,
+    "name": "gl_h",
+    "source_tag": "core",
+    "files": [
+      "core/oof_gl_h.npy",
+      "core/test_gl_h.npy"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9597906946506933,
+    "oof_min": 0.0016313790238390727,
+    "oof_max": 0.9962407297038919,
+    "test_min": 0.0032520797281171284,
+    "test_max": 0.993175055717425,
+    "family": "gbdt",
+    "scale": 1.0
+  },
+  {
+    "index": 17,
+    "name": "gl_i",
+    "source_tag": "core",
+    "files": [
+      "core/oof_gl_i.npy",
+      "core/test_gl_i.npy"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9596512456674313,
+    "oof_min": 0.0008197805727832019,
+    "oof_max": 0.9978081583976746,
+    "test_min": 0.001983904978260398,
+    "test_max": 0.9977315187454223,
+    "family": "gbdt",
+    "scale": 1.0
+  },
+  {
+    "index": 18,
+    "name": "gl_j",
+    "source_tag": "core",
+    "files": [
+      "core/oof_gl_j.npy",
+      "core/test_gl_j.npy"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9611498049784131,
+    "oof_min": 0.006375774780280973,
+    "oof_max": 0.9972752767993761,
+    "test_min": 0.008929655916702528,
+    "test_max": 0.9964683613948813,
+    "family": "gbdt",
+    "scale": 1.0
+  },
+  {
+    "index": 19,
+    "name": "gl_k",
+    "source_tag": "core",
+    "files": [
+      "core/oof_gl_k.npy",
+      "core/test_gl_k.npy"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.960934491609555,
+    "oof_min": 0.004017679600920155,
+    "oof_max": 0.997778946182306,
+    "test_min": 0.005654854652532215,
+    "test_max": 0.9972902992894968,
+    "family": "gbdt",
+    "scale": 1.0
+  },
+  {
+    "index": 20,
+    "name": "gl_l",
+    "source_tag": "core",
+    "files": [
+      "core/oof_gl_l.npy",
+      "core/test_gl_l.npy"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9609563425736021,
+    "oof_min": 0.0006601742981827088,
+    "oof_max": 0.9978036678433287,
+    "test_min": 0.004080649562258707,
+    "test_max": 0.9966082535809528,
+    "family": "gbdt",
+    "scale": 1.0
+  },
+  {
+    "index": 21,
+    "name": "gl_m",
+    "source_tag": "core",
+    "files": [
+      "core/oof_gl_m.npy",
+      "core/test_gl_m.npy"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9604113514971115,
+    "oof_min": 0.003877751269587691,
+    "oof_max": 0.9981619588618496,
+    "test_min": 0.0052138954475095005,
+    "test_max": 0.9972944336898062,
+    "family": "gbdt",
+    "scale": 1.0
+  },
+  {
+    "index": 22,
+    "name": "gl_n",
+    "source_tag": "core",
+    "files": [
+      "core/oof_gl_n.npy",
+      "core/test_gl_n.npy"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9612332572639095,
+    "oof_min": 0.0024726666735781625,
+    "oof_max": 0.9987611767187963,
+    "test_min": 0.005935588754161788,
+    "test_max": 0.9981879801921462,
+    "family": "gbdt",
+    "scale": 1.0
+  },
+  {
+    "index": 23,
+    "name": "gp_cat_ctr",
+    "source_tag": "core",
+    "files": [
+      "core/oof_gp_cat_ctr.npy",
+      "core/test_gp_cat_ctr.npy"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9610452062969601,
+    "oof_min": 0.0015994280692129,
+    "oof_max": 0.9970746717732072,
+    "test_min": 0.0041530309394406,
+    "test_max": 0.9948855969156783,
+    "family": "gbdt",
+    "scale": 1.0
+  },
+  {
+    "index": 24,
+    "name": "gp_cat_ctr3",
+    "source_tag": "core",
+    "files": [
+      "core/oof_gp_cat_ctr3.npy",
+      "core/test_gp_cat_ctr3.npy"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9611182298755043,
+    "oof_min": 0.0020289751061472,
+    "oof_max": 0.9969525456972534,
+    "test_min": 0.0041218016148556,
+    "test_max": 0.9955205392491256,
+    "family": "gbdt",
+    "scale": 1.0
+  },
+  {
+    "index": 25,
+    "name": "gp_cat_ctr5",
+    "source_tag": "core",
+    "files": [
+      "core/oof_gp_cat_ctr5.npy",
+      "core/test_gp_cat_ctr5.npy"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9610899536774098,
+    "oof_min": 0.003798903183039,
+    "oof_max": 0.9960102985374988,
+    "test_min": 0.0053105149745866,
+    "test_max": 0.9946172516383298,
+    "family": "gbdt",
+    "scale": 1.0
+  },
+  {
+    "index": 26,
+    "name": "gp_cat_v3",
+    "source_tag": "core",
+    "files": [
+      "core/oof_gp_cat_v3.npy",
+      "core/test_gp_cat_v3.npy"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9608329182257724,
+    "oof_min": 0.0030813930645545,
+    "oof_max": 0.997970432475756,
+    "test_min": 0.0055066917335206,
+    "test_max": 0.9968644842012848,
+    "family": "gbdt",
+    "scale": 1.0
+  },
+  {
+    "index": 27,
+    "name": "gp_cat_vb",
+    "source_tag": "core",
+    "files": [
+      "core/oof_gp_cat_vb.npy",
+      "core/test_gp_cat_vb.npy"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9608054111207189,
+    "oof_min": 0.0020016254612863,
+    "oof_max": 0.9981500466408004,
+    "test_min": 0.0040028684844602,
+    "test_max": 0.996219649091213,
+    "family": "gbdt",
+    "scale": 1.0
+  },
+  {
+    "index": 28,
+    "name": "gp_deepfm_rawaux",
+    "source_tag": "core",
+    "files": [
+      "core/oof_gp_deepfm_rawaux.npy",
+      "core/test_gp_deepfm_rawaux.npy"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9604788246883567,
+    "oof_min": 0.0013519072890063,
+    "oof_max": 0.999310289618228,
+    "test_min": 0.0018894293398685,
+    "test_max": 0.999110610783724,
+    "family": "gbdt",
+    "scale": 1.0
+  },
+  {
+    "index": 29,
+    "name": "gp_deepfm_v1",
+    "source_tag": "core",
+    "files": [
+      "core/oof_gp_deepfm_v1.npy",
+      "core/test_gp_deepfm_v1.npy"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9607275035650521,
+    "oof_min": 0.0027651439298823,
+    "oof_max": 0.9995742757109992,
+    "test_min": 0.0034957828542995,
+    "test_max": 0.9994558606177012,
+    "family": "gbdt",
+    "scale": 1.0
+  },
+  {
+    "index": 30,
+    "name": "gp_glm6_xgb",
+    "source_tag": "core",
+    "files": [
+      "core/oof_gp_glm6_xgb.npy",
+      "core/test_gp_glm6_xgb.npy"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9608033590154057,
+    "oof_min": 0.0023027795940025,
+    "oof_max": 0.9990207817753866,
+    "test_min": 0.0023997534946464,
+    "test_max": 0.9988134394159968,
+    "family": "gbdt",
+    "scale": 1.0
+  },
+  {
+    "index": 31,
+    "name": "gp_glm_xgb",
+    "source_tag": "core",
+    "files": [
+      "core/oof_gp_glm_xgb.npy",
+      "core/test_gp_glm_xgb.npy"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.960751177852471,
+    "oof_min": 0.0014282641052091,
+    "oof_max": 0.9993011791645616,
+    "test_min": 0.0018971787460485,
+    "test_max": 0.9990091525606124,
+    "family": "gbdt",
+    "scale": 1.0
+  },
+  {
+    "index": 32,
+    "name": "gp_lgb_auxall",
+    "source_tag": "core",
+    "files": [
+      "core/oof_gp_lgb_auxall.npy",
+      "core/test_gp_lgb_auxall.npy"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9611531608469513,
+    "oof_min": 0.0078801057884994,
+    "oof_max": 0.9975203129889398,
+    "test_min": 0.0097096953027612,
+    "test_max": 0.9963414092208488,
+    "family": "gbdt",
+    "scale": 1.0
+  },
+  {
+    "index": 33,
+    "name": "gp_lgb_v3",
+    "source_tag": "core",
+    "files": [
+      "core/oof_gp_lgb_v3.npy",
+      "core/test_gp_lgb_v3.npy"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9610566609965594,
+    "oof_min": 0.0066281326975289,
+    "oof_max": 0.9976598019002902,
+    "test_min": 0.0081446283852111,
+    "test_max": 0.9966575848106548,
+    "family": "gbdt",
+    "scale": 1.0
+  },
+  {
+    "index": 34,
+    "name": "gp_lgb_vb",
+    "source_tag": "core",
+    "files": [
+      "core/oof_gp_lgb_vb.npy",
+      "core/test_gp_lgb_vb.npy"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9610108125161062,
+    "oof_min": 0.0059109242573316,
+    "oof_max": 0.998011118216017,
+    "test_min": 0.0080413612847478,
+    "test_max": 0.9960931551535492,
+    "family": "gbdt",
+    "scale": 1.0
+  },
+  {
+    "index": 35,
+    "name": "gp_lgb_vb_aux",
+    "source_tag": "core",
+    "files": [
+      "core/oof_gp_lgb_vb_aux.npy",
+      "core/test_gp_lgb_vb_aux.npy"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9610606819219506,
+    "oof_min": 0.0074931575163551,
+    "oof_max": 0.997260777775892,
+    "test_min": 0.0094515694941259,
+    "test_max": 0.9958735080367156,
+    "family": "gbdt",
+    "scale": 1.0
+  },
+  {
+    "index": 36,
+    "name": "gp_lgb_vb_ogev",
+    "source_tag": "core",
+    "files": [
+      "core/oof_gp_lgb_vb_ogev.npy",
+      "core/test_gp_lgb_vb_ogev.npy"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9610565583261108,
+    "oof_min": 0.0066427233699077,
+    "oof_max": 0.9973854159621172,
+    "test_min": 0.0082742243521186,
+    "test_max": 0.9963231895429248,
+    "family": "gbdt",
+    "scale": 1.0
+  },
+  {
+    "index": 37,
+    "name": "gp_realmlp_fa",
+    "source_tag": "core",
+    "files": [
+      "core/oof_gp_realmlp_fa.npy",
+      "core/test_gp_realmlp_fa.npy"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9609464979641628,
+    "oof_min": 0.0020845574326813,
+    "oof_max": 0.9993404746055604,
+    "test_min": 0.0036650825641117,
+    "test_max": 0.9990002512931824,
+    "family": "mlp",
+    "scale": 1.0
+  },
+  {
+    "index": 38,
+    "name": "gp_realmlp_fa_aux",
+    "source_tag": "core",
+    "files": [
+      "core/oof_gp_realmlp_fa_aux.npy",
+      "core/test_gp_realmlp_fa_aux.npy"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9610040993387962,
+    "oof_min": 0.0017896259669214,
+    "oof_max": 0.9995867609977722,
+    "test_min": 0.0035076645435765,
+    "test_max": 0.9992665499448776,
+    "family": "mlp",
+    "scale": 1.0
+  },
+  {
+    "index": 39,
+    "name": "gp_realmlp_fa_aux3",
+    "source_tag": "core",
+    "files": [
+      "core/oof_gp_realmlp_fa_aux3.npy",
+      "core/test_gp_realmlp_fa_aux3.npy"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9610772877206268,
+    "oof_min": 0.0043179891072213,
+    "oof_max": 0.99932861328125,
+    "test_min": 0.0051291033742018,
+    "test_max": 0.9989680349826812,
+    "family": "mlp",
+    "scale": 1.0
+  },
+  {
+    "index": 40,
+    "name": "gp_realmlp_fa_aux_s2",
+    "source_tag": "core",
+    "files": [
+      "core/oof_gp_realmlp_fa_aux_s2.npy",
+      "core/test_gp_realmlp_fa_aux_s2.npy"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9610184900333029,
+    "oof_min": 0.0028695031069219,
+    "oof_max": 0.9995606541633606,
+    "test_min": 0.0042153180111199,
+    "test_max": 0.9992242306470872,
+    "family": "mlp",
+    "scale": 1.0
+  },
+  {
+    "index": 41,
+    "name": "gp_realmlp_fa_auxog",
+    "source_tag": "core",
+    "files": [
+      "core/oof_gp_realmlp_fa_auxog.npy",
+      "core/test_gp_realmlp_fa_auxog.npy"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9608878302620634,
+    "oof_min": 0.0029226352926343,
+    "oof_max": 0.9995055198669434,
+    "test_min": 0.0032868223497644,
+    "test_max": 0.9993002116680144,
+    "family": "mlp",
+    "scale": 1.0
+  },
+  {
+    "index": 42,
+    "name": "gp_realmlp_fa_auxogev",
+    "source_tag": "core",
+    "files": [
+      "core/oof_gp_realmlp_fa_auxogev.npy",
+      "core/test_gp_realmlp_fa_auxogev.npy"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9610293573493389,
+    "oof_min": 0.0034500018227845,
+    "oof_max": 0.9994561076164246,
+    "test_min": 0.0033771200105547,
+    "test_max": 0.9992328882217408,
+    "family": "mlp",
+    "scale": 1.0
+  },
+  {
+    "index": 43,
+    "name": "gp_realmlp_fa_s123",
+    "source_tag": "core",
+    "files": [
+      "core/oof_gp_realmlp_fa_s123.npy",
+      "core/test_gp_realmlp_fa_s123.npy"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9609078084009153,
+    "oof_min": 0.0018940008012577,
+    "oof_max": 0.9995669722557068,
+    "test_min": 0.0031482912309002,
+    "test_max": 0.999342441558838,
+    "family": "mlp",
+    "scale": 1.0
+  },
+  {
+    "index": 44,
+    "name": "gp_realmlp_fa_s7",
+    "source_tag": "core",
+    "files": [
+      "core/oof_gp_realmlp_fa_s7.npy",
+      "core/test_gp_realmlp_fa_s7.npy"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9609755546198999,
+    "oof_min": 0.0026594537775963,
+    "oof_max": 0.9991517066955566,
+    "test_min": 0.0041362693882547,
+    "test_max": 0.9990302324295044,
+    "family": "mlp",
+    "scale": 1.0
+  },
+  {
+    "index": 45,
+    "name": "gp_realmlp_og",
+    "source_tag": "core",
+    "files": [
+      "core/oof_gp_realmlp_og.npy",
+      "core/test_gp_realmlp_og.npy"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9607789460247034,
+    "oof_min": 0.005789793562144,
+    "oof_max": 0.9984179735183716,
+    "test_min": 0.0077294972725212,
+    "test_max": 0.9980579614639282,
+    "family": "mlp",
+    "scale": 1.0
+  },
+  {
+    "index": 46,
+    "name": "gp_realmlp_pub",
+    "source_tag": "core",
+    "files": [
+      "core/oof_gp_realmlp_pub.npy",
+      "core/test_gp_realmlp_pub.npy"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9607689561585965,
+    "oof_min": 0.0045818388462066,
+    "oof_max": 0.9986465573310852,
+    "test_min": 0.0068167526624165,
+    "test_max": 0.998448371887207,
+    "family": "mlp",
+    "scale": 1.0
+  },
+  {
+    "index": 47,
+    "name": "gp_realmlp_pub_aux",
+    "source_tag": "core",
+    "files": [
+      "core/oof_gp_realmlp_pub_aux.npy",
+      "core/test_gp_realmlp_pub_aux.npy"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9609141323178368,
+    "oof_min": 0.0055534522980451,
+    "oof_max": 0.9990108013153076,
+    "test_min": 0.0065521062351763,
+    "test_max": 0.9985031485557556,
+    "family": "mlp",
+    "scale": 1.0
+  },
+  {
+    "index": 48,
+    "name": "gp_realmlp_pub_s1",
+    "source_tag": "core",
+    "files": [
+      "core/oof_gp_realmlp_pub_s1.npy",
+      "core/test_gp_realmlp_pub_s1.npy"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9607182013567064,
+    "oof_min": 0.0036854888312518,
+    "oof_max": 0.9986030459403992,
+    "test_min": 0.0056621425319463,
+    "test_max": 0.998208910226822,
+    "family": "mlp",
+    "scale": 1.0
+  },
+  {
+    "index": 49,
+    "name": "gp_realmlp_pub_s2",
+    "source_tag": "core",
+    "files": [
+      "core/oof_gp_realmlp_pub_s2.npy",
+      "core/test_gp_realmlp_pub_s2.npy"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9607568686459955,
+    "oof_min": 0.0037492194678634,
+    "oof_max": 0.9983919262886048,
+    "test_min": 0.0055768523598089,
+    "test_max": 0.9981099665164948,
+    "family": "mlp",
+    "scale": 1.0
+  },
+  {
+    "index": 50,
+    "name": "gp_realmlp_v4",
+    "source_tag": "core",
+    "files": [
+      "core/oof_gp_realmlp_v4.npy",
+      "core/test_gp_realmlp_v4.npy"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9611358739791693,
+    "oof_min": 0.0038134176284074,
+    "oof_max": 0.9994786381721495,
+    "test_min": 0.004285920294933,
+    "test_max": 0.9990723729133606,
+    "family": "mlp",
+    "scale": 1.0
+  },
+  {
+    "index": 51,
+    "name": "gp_realmlp_v4_s1",
+    "source_tag": "core",
+    "files": [
+      "core/oof_gp_realmlp_v4_s1.npy",
+      "core/test_gp_realmlp_v4_s1.npy"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9611046768424029,
+    "oof_min": 0.002416908275336,
+    "oof_max": 0.9995747208595276,
+    "test_min": 0.0048268773243762,
+    "test_max": 0.9989485889673232,
+    "family": "mlp",
+    "scale": 1.0
+  },
+  {
+    "index": 52,
+    "name": "gp_realmlp_v4_s2",
+    "source_tag": "core",
+    "files": [
+      "core/oof_gp_realmlp_v4_s2.npy",
+      "core/test_gp_realmlp_v4_s2.npy"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9611601623855229,
+    "oof_min": 0.0046614087186753,
+    "oof_max": 0.9990631937980652,
+    "test_min": 0.0062834981363266,
+    "test_max": 0.998557150363922,
+    "family": "mlp",
+    "scale": 1.0
+  },
+  {
+    "index": 53,
+    "name": "gp_realmlp_v4fa",
+    "source_tag": "core",
+    "files": [
+      "core/oof_gp_realmlp_v4fa.npy",
+      "core/test_gp_realmlp_v4fa.npy"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9611788584805354,
+    "oof_min": 0.0049200584180653,
+    "oof_max": 0.9992285966873168,
+    "test_min": 0.0055810804478824,
+    "test_max": 0.9987200945615768,
+    "family": "mlp",
+    "scale": 1.0
+  },
+  {
+    "index": 54,
+    "name": "gp_realmlp_vb_aux",
+    "source_tag": "core",
+    "files": [
+      "core/oof_gp_realmlp_vb_aux.npy",
+      "core/test_gp_realmlp_vb_aux.npy"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.961344863191067,
+    "oof_min": 0.0022475661244243,
+    "oof_max": 0.9995375871658324,
+    "test_min": 0.0037449146911967,
+    "test_max": 0.9989313632249832,
+    "family": "mlp",
+    "scale": 1.0
+  },
+  {
+    "index": 55,
+    "name": "gp_realmlp_vb_aux_s2",
+    "source_tag": "core",
+    "files": [
+      "core/oof_gp_realmlp_vb_aux_s2.npy",
+      "core/test_gp_realmlp_vb_aux_s2.npy"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9613156228724318,
+    "oof_min": 0.0025898432359099,
+    "oof_max": 0.9995439648628236,
+    "test_min": 0.0046179980272427,
+    "test_max": 0.9988736212253572,
+    "family": "mlp",
+    "scale": 1.0
+  },
+  {
+    "index": 56,
+    "name": "gp_tabicl_full_raw",
+    "source_tag": "core",
+    "files": [
+      "core/oof_gp_tabicl_full_raw.npy",
+      "core/test_gp_tabicl_full_raw.npy"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9575902496967745,
+    "oof_min": 0.0043842304,
+    "oof_max": 0.99106854,
+    "test_min": 0.0044710715,
+    "test_max": 0.9903733,
+    "family": "tfm",
+    "scale": 1.5
+  },
+  {
+    "index": 57,
+    "name": "gp_tabpfn_catfd",
+    "source_tag": "core",
+    "files": [
+      "core/oof_gp_tabpfn_catfd.npy",
+      "core/test_gp_tabpfn_catfd.npy"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9609247756692646,
+    "oof_min": 0.0065429364,
+    "oof_max": 0.9986935,
+    "test_min": 0.0079173045,
+    "test_max": 0.99705374,
+    "family": "tabpfn",
+    "scale": 3.0
+  },
+  {
+    "index": 58,
+    "name": "gp_tabpfn_catfd10",
+    "source_tag": "core",
+    "files": [
+      "core/oof_gp_tabpfn_catfd10.npy",
+      "core/test_gp_tabpfn_catfd10.npy"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9610711041023271,
+    "oof_min": 0.006736424,
+    "oof_max": 0.9990201,
+    "test_min": 0.006999017,
+    "test_max": 0.9985412,
+    "family": "tabpfn",
+    "scale": 3.0
+  },
+  {
+    "index": 59,
+    "name": "gp_tabpfn_catfd_s1",
+    "source_tag": "core",
+    "files": [
+      "core/oof_gp_tabpfn_catfd_s1.npy",
+      "core/test_gp_tabpfn_catfd_s1.npy"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9608946238193095,
+    "oof_min": 0.005861306,
+    "oof_max": 0.9978593,
+    "test_min": 0.007936215,
+    "test_max": 0.99703896,
+    "family": "tabpfn",
+    "scale": 3.0
+  },
+  {
+    "index": 60,
+    "name": "gp_tabpfn_full_raw",
+    "source_tag": "core",
+    "files": [
+      "core/oof_gp_tabpfn_full_raw.npy",
+      "core/test_gp_tabpfn_full_raw.npy"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9607285910324992,
+    "oof_min": 0.0073804655,
+    "oof_max": 0.99941516,
+    "test_min": 0.0081712175,
+    "test_max": 0.99766684,
+    "family": "tabpfn",
+    "scale": 3.0
+  },
+  {
+    "index": 61,
+    "name": "gp_tabpfn_full_raw_s1",
+    "source_tag": "core",
+    "files": [
+      "core/oof_gp_tabpfn_full_raw_s1.npy",
+      "core/test_gp_tabpfn_full_raw_s1.npy"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9606277494322566,
+    "oof_min": 0.0057701925,
+    "oof_max": 0.99780494,
+    "test_min": 0.0080302255,
+    "test_max": 0.9970813,
+    "family": "tabpfn",
+    "scale": 3.0
+  },
+  {
+    "index": 62,
+    "name": "gp_tabpfn_te",
+    "source_tag": "core",
+    "files": [
+      "core/oof_gp_tabpfn_te.npy",
+      "core/test_gp_tabpfn_te.npy"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9610993584486007,
+    "oof_min": 0.008540221,
+    "oof_max": 0.9986945,
+    "test_min": 0.008897351,
+    "test_max": 0.99768245,
+    "family": "tabpfn",
+    "scale": 3.0
+  },
+  {
+    "index": 63,
+    "name": "gp_tabpfn_te4",
+    "source_tag": "core",
+    "files": [
+      "core/oof_gp_tabpfn_te4.npy",
+      "core/test_gp_tabpfn_te4.npy"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9611421776748794,
+    "oof_min": 0.0067136628,
+    "oof_max": 0.9983525,
+    "test_min": 0.008109001,
+    "test_max": 0.9971147,
+    "family": "tabpfn",
+    "scale": 3.0
+  },
+  {
+    "index": 64,
+    "name": "gp_xgb_auxall",
+    "source_tag": "core",
+    "files": [
+      "core/oof_gp_xgb_auxall.npy",
+      "core/test_gp_xgb_auxall.npy"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9611559857328,
+    "oof_min": 0.0046502957120537,
+    "oof_max": 0.9989970326423644,
+    "test_min": 0.0056404606439173,
+    "test_max": 0.9982690364122392,
+    "family": "gbdt",
+    "scale": 1.0
+  },
+  {
+    "index": 65,
+    "name": "gp_xgb_auxev",
+    "source_tag": "core",
+    "files": [
+      "core/oof_gp_xgb_auxev.npy",
+      "core/test_gp_xgb_auxev.npy"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9611739831241215,
+    "oof_min": 0.0030981646850705,
+    "oof_max": 0.9989769458770752,
+    "test_min": 0.0060134280356578,
+    "test_max": 0.998389482498169,
+    "family": "gbdt",
+    "scale": 1.0
+  },
+  {
+    "index": 66,
+    "name": "gp_xgb_v3",
+    "source_tag": "core",
+    "files": [
+      "core/oof_gp_xgb_v3.npy",
+      "core/test_gp_xgb_v3.npy"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9610718136532949,
+    "oof_min": 0.0036972926463931,
+    "oof_max": 0.9990278482437134,
+    "test_min": 0.005550158850383,
+    "test_max": 0.9986574351787568,
+    "family": "gbdt",
+    "scale": 1.0
+  },
+  {
+    "index": 67,
+    "name": "gp_xgb_v3_d10",
+    "source_tag": "core",
+    "files": [
+      "core/oof_gp_xgb_v3_d10.npy",
+      "core/test_gp_xgb_v3_d10.npy"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9610608289623559,
+    "oof_min": 0.0034223527181893,
+    "oof_max": 0.9985032081604004,
+    "test_min": 0.0055838253465481,
+    "test_max": 0.9975459277629852,
+    "family": "gbdt",
+    "scale": 1.0
+  },
+  {
+    "index": 68,
+    "name": "gp_xgb_v3_s1",
+    "source_tag": "core",
+    "files": [
+      "core/oof_gp_xgb_v3_s1.npy",
+      "core/test_gp_xgb_v3_s1.npy"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9610946731161165,
+    "oof_min": 0.0032415078021585,
+    "oof_max": 0.9990159273147584,
+    "test_min": 0.0055634240270592,
+    "test_max": 0.9985679984092712,
+    "family": "gbdt",
+    "scale": 1.0
+  },
+  {
+    "index": 69,
+    "name": "gp_xgb_v4_tuned",
+    "source_tag": "core",
+    "files": [
+      "core/oof_gp_xgb_v4_tuned.npy",
+      "core/test_gp_xgb_v4_tuned.npy"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9611126659260051,
+    "oof_min": 0.0052099488675594,
+    "oof_max": 0.9976181387901306,
+    "test_min": 0.0072086509317159,
+    "test_max": 0.996697187423706,
+    "family": "gbdt",
+    "scale": 1.0
+  },
+  {
+    "index": 70,
+    "name": "gp_xgb_vb",
+    "source_tag": "core",
+    "files": [
+      "core/oof_gp_xgb_vb.npy",
+      "core/test_gp_xgb_vb.npy"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9609259387903637,
+    "oof_min": 0.0021078896243125,
+    "oof_max": 0.9991783499717712,
+    "test_min": 0.0059919784544035,
+    "test_max": 0.998206466436386,
+    "family": "gbdt",
+    "scale": 1.0
+  },
+  {
+    "index": 71,
+    "name": "meh_cat",
+    "source_tag": "core",
+    "files": [
+      "core/oof_meh_cat.npy",
+      "core/test_meh_cat.npy"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9603291540896686,
+    "oof_min": 0.000857147283443,
+    "oof_max": 0.999074698773624,
+    "test_min": 0.0014687618879306,
+    "test_max": 0.9981679907622776,
+    "family": "gbdt",
+    "scale": 1.0
+  },
+  {
+    "index": 72,
+    "name": "meh_lgb",
+    "source_tag": "core",
+    "files": [
+      "core/oof_meh_lgb.npy",
+      "core/test_meh_lgb.npy"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.960688820118659,
+    "oof_min": 0.0039900185619491,
+    "oof_max": 0.9984113235406652,
+    "test_min": 0.0047430010713694,
+    "test_max": 0.9978184161129114,
+    "family": "gbdt",
+    "scale": 1.0
+  },
+  {
+    "index": 73,
+    "name": "meh_realmlp",
+    "source_tag": "core",
+    "files": [
+      "core/oof_meh_realmlp.npy",
+      "core/test_meh_realmlp.npy"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9609575480119111,
+    "oof_min": 0.003217585152015,
+    "oof_max": 0.9992275238037108,
+    "test_min": 0.0043008684879168,
+    "test_max": 0.998847559094429,
+    "family": "mlp",
+    "scale": 1.0
+  },
+  {
+    "index": 74,
+    "name": "meh_xgb",
+    "source_tag": "core",
+    "files": [
+      "core/oof_meh_xgb.npy",
+      "core/test_meh_xgb.npy"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9604316573180867,
+    "oof_min": 0.0009002275182865,
+    "oof_max": 0.9994696974754332,
+    "test_min": 0.002727930797846,
+    "test_max": 0.9989731758832932,
+    "family": "gbdt",
+    "scale": 1.0
+  },
+  {
+    "index": 75,
+    "name": "mg_cat",
+    "source_tag": "core",
+    "files": [
+      "core/oof_mg_cat.npy",
+      "core/test_mg_cat.npy"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9609005715124401,
+    "oof_min": 0.0025416393022786327,
+    "oof_max": 0.9982284567747354,
+    "test_min": 0.004385680651897686,
+    "test_max": 0.9965297931676899,
+    "family": "gbdt",
+    "scale": 1.0
+  },
+  {
+    "index": 76,
+    "name": "mg_cat_ctr",
+    "source_tag": "core",
+    "files": [
+      "core/oof_mg_cat_ctr.npy",
+      "core/test_mg_cat_ctr.npy"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.960979693445797,
+    "oof_min": 0.00143920844340221,
+    "oof_max": 0.9976050200551112,
+    "test_min": 0.004382515172620772,
+    "test_max": 0.9969179093355087,
+    "family": "gbdt",
+    "scale": 1.0
+  },
+  {
+    "index": 77,
+    "name": "mg_lgb",
+    "source_tag": "core",
+    "files": [
+      "core/oof_mg_lgb.npy",
+      "core/test_mg_lgb.npy"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9610139562895479,
+    "oof_min": 0.0049458912243487176,
+    "oof_max": 0.9976641065899616,
+    "test_min": 0.006941842325459038,
+    "test_max": 0.9968460435666722,
+    "family": "gbdt",
+    "scale": 1.0
+  },
+  {
+    "index": 78,
+    "name": "mg_lgb_ogteach",
+    "source_tag": "core",
+    "files": [
+      "core/oof_mg_lgb_ogteach.npy",
+      "core/test_mg_lgb_ogteach.npy"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9609998151817369,
+    "oof_min": 0.004647791302712746,
+    "oof_max": 0.997506120990581,
+    "test_min": 0.007244351804005766,
+    "test_max": 0.9968763066452881,
+    "family": "gbdt",
+    "scale": 1.0
+  },
+  {
+    "index": 79,
+    "name": "mg_lgb_route",
+    "source_tag": "core",
+    "files": [
+      "core/oof_mg_lgb_route.npy",
+      "core/test_mg_lgb_route.npy"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9610354288404835,
+    "oof_min": 0.005309607471404668,
+    "oof_max": 0.9977190190704003,
+    "test_min": 0.007502829606177922,
+    "test_max": 0.9970427485041231,
+    "family": "gbdt",
+    "scale": 1.0
+  },
+  {
+    "index": 80,
+    "name": "mg_realmlp",
+    "source_tag": "core",
+    "files": [
+      "core/oof_mg_realmlp.npy",
+      "core/test_mg_realmlp.npy"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9610072432860591,
+    "oof_min": 0.0029274129774421453,
+    "oof_max": 0.9990643858909607,
+    "test_min": 0.0046679038981286185,
+    "test_max": 0.998828167716662,
+    "family": "mlp",
+    "scale": 1.0
+  },
+  {
+    "index": 81,
+    "name": "mg_realmlp_fa4",
+    "source_tag": "core",
+    "files": [
+      "core/oof_mg_realmlp_fa4.npy",
+      "core/test_mg_realmlp_fa4.npy"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9610153347007446,
+    "oof_min": 0.00263044866733253,
+    "oof_max": 0.9992363055547079,
+    "test_min": 0.003845883902007093,
+    "test_max": 0.999149943391482,
+    "family": "mlp",
+    "scale": 1.0
+  },
+  {
+    "index": 82,
+    "name": "mg_realmlp_og",
+    "source_tag": "core",
+    "files": [
+      "core/oof_mg_realmlp_og.npy",
+      "core/test_mg_realmlp_og.npy"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9609221408321773,
+    "oof_min": 0.0032752498518675566,
+    "oof_max": 0.999264121055603,
+    "test_min": 0.0040711002657189965,
+    "test_max": 0.9991478100419044,
+    "family": "mlp",
+    "scale": 1.0
+  },
+  {
+    "index": 83,
+    "name": "mg_realmlp_v4",
+    "source_tag": "core",
+    "files": [
+      "core/oof_mg_realmlp_v4.npy",
+      "core/test_mg_realmlp_v4.npy"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9611975257667363,
+    "oof_min": 0.001444450036312143,
+    "oof_max": 0.9994011322657267,
+    "test_min": 0.004506212251726538,
+    "test_max": 0.998982181151708,
+    "family": "mlp",
+    "scale": 1.0
+  },
+  {
+    "index": 84,
+    "name": "mg_realmlp_v4og",
+    "source_tag": "core",
+    "files": [
+      "core/oof_mg_realmlp_v4og.npy",
+      "core/test_mg_realmlp_v4og.npy"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9612319356715854,
+    "oof_min": 0.0018645058735273778,
+    "oof_max": 0.9994414746761322,
+    "test_min": 0.004735953698400408,
+    "test_max": 0.9988898783922195,
+    "family": "mlp",
+    "scale": 1.0
+  },
+  {
+    "index": 85,
+    "name": "mg_xgb",
+    "source_tag": "core",
+    "files": [
+      "core/oof_mg_xgb.npy",
+      "core/test_mg_xgb.npy"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9609106606387873,
+    "oof_min": 0.0029067406430840492,
+    "oof_max": 0.9990418553352356,
+    "test_min": 0.004047436115797609,
+    "test_max": 0.9985793381929398,
+    "family": "gbdt",
+    "scale": 1.0
+  },
+  {
+    "index": 86,
+    "name": "mi_cat_ctr",
+    "source_tag": "core",
+    "files": [
+      "core/oof_mi_cat_ctr.npy",
+      "core/test_mi_cat_ctr.npy"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9611197888704787,
+    "oof_min": 0.003473626496085672,
+    "oof_max": 0.9956429029143847,
+    "test_min": 0.004699429548587885,
+    "test_max": 0.9938781207514633,
+    "family": "gbdt",
+    "scale": 1.0
+  },
+  {
+    "index": 87,
+    "name": "mi_glm_xgb",
+    "source_tag": "core",
+    "files": [
+      "core/oof_mi_glm_xgb.npy",
+      "core/test_mi_glm_xgb.npy"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9610648594561961,
+    "oof_min": 0.0017295032739639282,
+    "oof_max": 0.9991388320922852,
+    "test_min": 0.0014819193602306768,
+    "test_max": 0.9986420571804047,
+    "family": "gbdt",
+    "scale": 1.0
+  },
+  {
+    "index": 88,
+    "name": "mi_lgb_route_cat",
+    "source_tag": "core",
+    "files": [
+      "core/oof_mi_lgb_route_cat.npy",
+      "core/test_mi_lgb_route_cat.npy"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9610272920253295,
+    "oof_min": 0.008551548786882659,
+    "oof_max": 0.9955165245122377,
+    "test_min": 0.01021602752324628,
+    "test_max": 0.9944726130855894,
+    "family": "gbdt",
+    "scale": 1.0
+  },
+  {
+    "index": 89,
+    "name": "mi_realmlp_lean",
+    "source_tag": "core",
+    "files": [
+      "core/oof_mi_realmlp_lean.npy",
+      "core/test_mi_realmlp_lean.npy"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9613074455817463,
+    "oof_min": 0.00193721370305866,
+    "oof_max": 0.9993377327919006,
+    "test_min": 0.0035734408302232623,
+    "test_max": 0.9988112151622772,
+    "family": "mlp",
+    "scale": 1.0
+  },
+  {
+    "index": 90,
+    "name": "mi_realmlp_raw",
+    "source_tag": "core",
+    "files": [
+      "core/oof_mi_realmlp_raw.npy",
+      "core/test_mi_realmlp_raw.npy"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9609761971544791,
+    "oof_min": 0.0023844605311751366,
+    "oof_max": 0.9994350075721741,
+    "test_min": 0.00365717668319121,
+    "test_max": 0.9989656805992126,
+    "family": "mlp",
+    "scale": 1.0
+  },
+  {
+    "index": 91,
+    "name": "mi_xgb",
+    "source_tag": "core",
+    "files": [
+      "core/oof_mi_xgb.npy",
+      "core/test_mi_xgb.npy"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9612471091785998,
+    "oof_min": 0.004902003798633814,
+    "oof_max": 0.9990038275718689,
+    "test_min": 0.006324844784103334,
+    "test_max": 0.9980542808771133,
+    "family": "gbdt",
+    "scale": 1.0
+  },
+  {
+    "index": 92,
+    "name": "mi_xgb_d5",
+    "source_tag": "core",
+    "files": [
+      "core/oof_mi_xgb_d5.npy",
+      "core/test_mi_xgb_d5.npy"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9612882165175153,
+    "oof_min": 0.004521592520177364,
+    "oof_max": 0.998826801776886,
+    "test_min": 0.003773908596485853,
+    "test_max": 0.9981746822595596,
+    "family": "gbdt",
+    "scale": 1.0
+  },
+  {
+    "index": 93,
+    "name": "nj_01",
+    "source_tag": "core",
+    "files": [
+      "core/oof_nj_01.npy",
+      "core/test_nj_01.npy"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9617440495994619,
+    "oof_min": 7.146583575721626e-07,
+    "oof_max": 0.9999992853416424,
+    "test_min": 1.6675337842344683e-06,
+    "test_max": 0.9999983324662156,
+    "family": "gbdt",
+    "scale": 1.0
+  },
+  {
+    "index": 94,
+    "name": "pfn_hemingweb_raw",
+    "source_tag": "core",
+    "files": [
+      "core/oof_pfn_hemingweb_raw.npy",
+      "core/test_pfn_hemingweb_raw.npy"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9610532633405526,
+    "oof_min": 0.0058903135359287,
+    "oof_max": 0.9985591769218444,
+    "test_min": 0.008361199,
+    "test_max": 0.9974462,
+    "family": "tabpfn",
+    "scale": 3.0
+  },
+  {
+    "index": 95,
+    "name": "pfn_samanyu_route_og",
+    "source_tag": "core",
+    "files": [
+      "core/oof_pfn_samanyu_route_og.npy",
+      "core/test_pfn_samanyu_route_og.npy"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9612684167151799,
+    "oof_min": 0.0064630019478499,
+    "oof_max": 0.9985180497169496,
+    "test_min": 0.0066272533,
+    "test_max": 0.997569,
+    "family": "tabpfn",
+    "scale": 3.0
+  },
+  {
+    "index": 96,
+    "name": "pfn_samanyu_seeds",
+    "source_tag": "core",
+    "files": [
+      "core/oof_pfn_samanyu_seeds.npy",
+      "core/test_pfn_samanyu_seeds.npy"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9610079439348932,
+    "oof_min": 0.0069768456742167,
+    "oof_max": 0.998487949371338,
+    "test_min": 0.009220377,
+    "test_max": 0.99717903,
+    "family": "tabpfn",
+    "scale": 3.0
+  },
+  {
+    "index": 97,
+    "name": "sa_cat_ctr_auxall_k10",
+    "source_tag": "core",
+    "files": [
+      "core/oof_sa_cat_ctr_auxall_k10.npy",
+      "core/test_sa_cat_ctr_auxall_k10.npy"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9611744083324105,
+    "oof_min": 0.005038574139279088,
+    "oof_max": 0.9968342930360711,
+    "test_min": 0.005570915778570289,
+    "test_max": 0.9926454240689494,
+    "family": "gbdt",
+    "scale": 1.0
+  },
+  {
+    "index": 98,
+    "name": "sa_cat_ctr_auxev",
+    "source_tag": "core",
+    "files": [
+      "core/oof_sa_cat_ctr_auxev.npy",
+      "core/test_sa_cat_ctr_auxev.npy"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9609837008214042,
+    "oof_min": 0.0033528468256919398,
+    "oof_max": 0.9971501535731697,
+    "test_min": 0.006243760131958223,
+    "test_max": 0.9941330524887539,
+    "family": "gbdt",
+    "scale": 1.0
+  },
+  {
+    "index": 99,
+    "name": "sa_cat_ctr_auxev_k10",
+    "source_tag": "core",
+    "files": [
+      "core/oof_sa_cat_ctr_auxev_k10.npy",
+      "core/test_sa_cat_ctr_auxev_k10.npy"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9611595341456769,
+    "oof_min": 0.003137655289207804,
+    "oof_max": 0.9958686287718733,
+    "test_min": 0.00604845138665698,
+    "test_max": 0.99413833555844,
+    "family": "gbdt",
+    "scale": 1.0
+  },
+  {
+    "index": 100,
+    "name": "sa_lgb_A",
+    "source_tag": "core",
+    "files": [
+      "core/oof_sa_lgb_A.npy",
+      "core/test_sa_lgb_A.npy"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9609714197256753,
+    "oof_min": 0.006268795256257383,
+    "oof_max": 0.997896986528133,
+    "test_min": 0.007882499746881887,
+    "test_max": 0.9969730695589869,
+    "family": "gbdt",
+    "scale": 1.0
+  },
+  {
+    "index": 101,
+    "name": "sa_lgb_A_auxall",
+    "source_tag": "core",
+    "files": [
+      "core/oof_sa_lgb_A_auxall.npy",
+      "core/test_sa_lgb_A_auxall.npy"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9611355531795418,
+    "oof_min": 0.006634279426834318,
+    "oof_max": 0.9980589988499006,
+    "test_min": 0.007988492681169508,
+    "test_max": 0.9965400827806787,
+    "family": "gbdt",
+    "scale": 1.0
+  },
+  {
+    "index": 102,
+    "name": "sa_lgb_A_auxall_k10",
+    "source_tag": "core",
+    "files": [
+      "core/oof_sa_lgb_A_auxall_k10.npy",
+      "core/test_sa_lgb_A_auxall_k10.npy"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9612370099995874,
+    "oof_min": 0.006731692625440861,
+    "oof_max": 0.997842216575559,
+    "test_min": 0.009269481528793769,
+    "test_max": 0.9962324652065484,
+    "family": "gbdt",
+    "scale": 1.0
+  },
+  {
+    "index": 103,
+    "name": "sa_lgb_B_k10",
+    "source_tag": "core",
+    "files": [
+      "core/oof_sa_lgb_B_k10.npy",
+      "core/test_sa_lgb_B_k10.npy"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9610650621608037,
+    "oof_min": 0.005758041357393212,
+    "oof_max": 0.9977894726709212,
+    "test_min": 0.007894978656347118,
+    "test_max": 0.9967383597779408,
+    "family": "gbdt",
+    "scale": 1.0
+  },
+  {
+    "index": 104,
+    "name": "sa_rmlp_B",
+    "source_tag": "core",
+    "files": [
+      "core/oof_sa_rmlp_B.npy",
+      "core/test_sa_rmlp_B.npy"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9612819176267225,
+    "oof_min": 0.003958141431212425,
+    "oof_max": 0.999441921710968,
+    "test_min": 0.004443805548362434,
+    "test_max": 0.9988999962806702,
+    "family": "mlp",
+    "scale": 1.0
+  },
+  {
+    "index": 105,
+    "name": "sa_rmlp_B_k10",
+    "source_tag": "core",
+    "files": [
+      "core/oof_sa_rmlp_B_k10.npy",
+      "core/test_sa_rmlp_B_k10.npy"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9613779209938148,
+    "oof_min": 0.0044000898487865925,
+    "oof_max": 0.9991384744644165,
+    "test_min": 0.004435114009538665,
+    "test_max": 0.9988090470433235,
+    "family": "mlp",
+    "scale": 1.0
+  },
+  {
+    "index": 106,
+    "name": "sa_rmlp_ogx_aux",
+    "source_tag": "core",
+    "files": [
+      "core/oof_sa_rmlp_ogx_aux.npy",
+      "core/test_sa_rmlp_ogx_aux.npy"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9610812312789847,
+    "oof_min": 0.005049659870564938,
+    "oof_max": 0.9991341233253479,
+    "test_min": 0.005164766684174538,
+    "test_max": 0.9987776130437851,
+    "family": "mlp",
+    "scale": 1.0
+  },
+  {
+    "index": 107,
+    "name": "sa_rmlp_ogx_aux_k10",
+    "source_tag": "core",
+    "files": [
+      "core/oof_sa_rmlp_ogx_aux_k10.npy",
+      "core/test_sa_rmlp_ogx_aux_k10.npy"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9611754647437851,
+    "oof_min": 0.004602410364896059,
+    "oof_max": 0.9990966320037842,
+    "test_min": 0.004826503660297021,
+    "test_max": 0.9987694025039673,
+    "family": "mlp",
+    "scale": 1.0
+  },
+  {
+    "index": 108,
+    "name": "sa_rmlp_raw_aux_k10",
+    "source_tag": "core",
+    "files": [
+      "core/oof_sa_rmlp_raw_aux_k10.npy",
+      "core/test_sa_rmlp_raw_aux_k10.npy"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9612519703354689,
+    "oof_min": 0.003964248113334179,
+    "oof_max": 0.9993354678153992,
+    "test_min": 0.0048901496338658035,
+    "test_max": 0.9988465085625648,
+    "family": "mlp",
+    "scale": 1.0
+  },
+  {
+    "index": 109,
+    "name": "sa_rmlp_raw_aux_s2",
+    "source_tag": "core",
+    "files": [
+      "core/oof_sa_rmlp_raw_aux_s2.npy",
+      "core/test_sa_rmlp_raw_aux_s2.npy"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9611181158818394,
+    "oof_min": 0.003636570880189538,
+    "oof_max": 0.9991723299026489,
+    "test_min": 0.005408770637586713,
+    "test_max": 0.9988935142755508,
+    "family": "mlp",
+    "scale": 1.0
+  },
+  {
+    "index": 110,
+    "name": "sa_rmlp_v4aux",
+    "source_tag": "core",
+    "files": [
+      "core/oof_sa_rmlp_v4aux.npy",
+      "core/test_sa_rmlp_v4aux.npy"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9612681465306602,
+    "oof_min": 0.0036465327721089125,
+    "oof_max": 0.9992916584014893,
+    "test_min": 0.004551166668534279,
+    "test_max": 0.9989460110664368,
+    "family": "mlp",
+    "scale": 1.0
+  },
+  {
+    "index": 111,
+    "name": "sa_rmlp_v4aux_k10",
+    "source_tag": "core",
+    "files": [
+      "core/oof_sa_rmlp_v4aux_k10.npy",
+      "core/test_sa_rmlp_v4aux_k10.npy"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9613979792104848,
+    "oof_min": 0.004354818724095821,
+    "oof_max": 0.9992979764938354,
+    "test_min": 0.004623523622285575,
+    "test_max": 0.9987140595912933,
+    "family": "mlp",
+    "scale": 1.0
+  },
+  {
+    "index": 112,
+    "name": "sa_rmlp_v4aux_k10s2",
+    "source_tag": "core",
+    "files": [
+      "core/oof_sa_rmlp_v4aux_k10s2.npy",
+      "core/test_sa_rmlp_v4aux_k10s2.npy"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9614127153624121,
+    "oof_min": 0.004007391631603241,
+    "oof_max": 0.9993537068367004,
+    "test_min": 0.0045986494806129485,
+    "test_max": 0.9987887516617775,
+    "family": "mlp",
+    "scale": 1.0
+  },
+  {
+    "index": 113,
+    "name": "sa_rmlp_v4ev_e4_k10",
+    "source_tag": "core",
+    "files": [
+      "core/oof_sa_rmlp_v4ev_e4_k10.npy",
+      "core/test_sa_rmlp_v4ev_e4_k10.npy"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.961244057071063,
+    "oof_min": 0.003067729063332081,
+    "oof_max": 0.9994372725486755,
+    "test_min": 0.003401412657694891,
+    "test_max": 0.9990902319550514,
+    "family": "mlp",
+    "scale": 1.0
+  },
+  {
+    "index": 114,
+    "name": "sa_xgb_A",
+    "source_tag": "core",
+    "files": [
+      "core/oof_sa_xgb_A.npy",
+      "core/test_sa_xgb_A.npy"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9609030457096748,
+    "oof_min": 0.0018690695287659764,
+    "oof_max": 0.999505877494812,
+    "test_min": 0.004610906995367259,
+    "test_max": 0.998799592256546,
+    "family": "gbdt",
+    "scale": 1.0
+  },
+  {
+    "index": 115,
+    "name": "sa_xgb_A_auxev",
+    "source_tag": "core",
+    "files": [
+      "core/oof_sa_xgb_A_auxev.npy",
+      "core/test_sa_xgb_A_auxev.npy"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9610442187105437,
+    "oof_min": 0.0031069754622876644,
+    "oof_max": 0.9990353584289551,
+    "test_min": 0.0049080664466600865,
+    "test_max": 0.9984147846698761,
+    "family": "gbdt",
+    "scale": 1.0
+  },
+  {
+    "index": 116,
+    "name": "sa_xgb_raw",
+    "source_tag": "core",
+    "files": [
+      "core/oof_sa_xgb_raw.npy",
+      "core/test_sa_xgb_raw.npy"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9588324278029428,
+    "oof_min": 0.0009300387464463711,
+    "oof_max": 0.9961071610450745,
+    "test_min": 0.002160266158170998,
+    "test_max": 0.9955185055732727,
+    "family": "gbdt",
+    "scale": 1.0
+  },
+  {
+    "index": 117,
+    "name": "sa_xgb_route",
+    "source_tag": "core",
+    "files": [
+      "core/oof_sa_xgb_route.npy",
+      "core/test_sa_xgb_route.npy"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9603173327885292,
+    "oof_min": 0.0006784681463614106,
+    "oof_max": 0.9997625946998596,
+    "test_min": 0.0032070348679553717,
+    "test_max": 0.999248281121254,
+    "family": "gbdt",
+    "scale": 1.0
+  },
+  {
+    "index": 118,
+    "name": "sa_xgb_te",
+    "source_tag": "core",
+    "files": [
+      "core/oof_sa_xgb_te.npy",
+      "core/test_sa_xgb_te.npy"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9601785611123836,
+    "oof_min": 0.0013434310676530004,
+    "oof_max": 0.9992157220840454,
+    "test_min": 0.0037736515514552593,
+    "test_max": 0.998834416270256,
+    "family": "gbdt",
+    "scale": 1.0
+  },
+  {
+    "index": 119,
+    "name": "th_catboost",
+    "source_tag": "core",
+    "files": [
+      "core/oof_th_catboost.npy",
+      "core/test_th_catboost.npy"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9609412254922929,
+    "oof_min": 0.0029096868820155,
+    "oof_max": 0.997842409257582,
+    "test_min": 0.0042435734968442,
+    "test_max": 0.9967138835487814,
+    "family": "gbdt",
+    "scale": 1.0
+  },
+  {
+    "index": 120,
+    "name": "th_realmlp",
+    "source_tag": "core",
+    "files": [
+      "core/oof_th_realmlp.npy",
+      "core/test_th_realmlp.npy"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9610415714948964,
+    "oof_min": 0.0017522347625344,
+    "oof_max": 0.9996738433837892,
+    "test_min": 0.002917244011769,
+    "test_max": 0.9993099868297576,
+    "family": "mlp",
+    "scale": 1.0
+  },
+  {
+    "index": 121,
+    "name": "th_xgb",
+    "source_tag": "core",
+    "files": [
+      "core/oof_th_xgb.npy",
+      "core/test_th_xgb.npy"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9610927029965171,
+    "oof_min": 0.003335105953738,
+    "oof_max": 0.998754620552063,
+    "test_min": 0.0052490864181891,
+    "test_max": 0.9980230927467346,
+    "family": "gbdt",
+    "scale": 1.0
+  },
+  {
+    "index": 122,
+    "name": "wx_context_numeric",
+    "source_tag": "core",
+    "files": [
+      "core/oof_wx_context_numeric.npy",
+      "core/test_wx_context_numeric.npy"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9606491618575763,
+    "oof_min": 0.0029720161110162735,
+    "oof_max": 0.9972106218338013,
+    "test_min": 0.0038597661788139148,
+    "test_max": 0.9959968558105365,
+    "family": "gbdt",
+    "scale": 1.0
+  },
+  {
+    "index": 123,
+    "name": "wx_rating_segments",
+    "source_tag": "core",
+    "files": [
+      "core/oof_wx_rating_segments.npy",
+      "core/test_wx_rating_segments.npy"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9608108677355645,
+    "oof_min": 0.0008820330258458853,
+    "oof_max": 0.9947981238365173,
+    "test_min": 0.001687535746980679,
+    "test_max": 0.9944366038104115,
+    "family": "gbdt",
+    "scale": 1.0
+  },
+  {
+    "index": 124,
+    "name": "tfm_causilo",
+    "source_tag": "tfm",
+    "files": [
+      "tfm/oof_causilo.npy",
+      "tfm/test_causilo.npy"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9582754041869069,
+    "oof_min": 0.014494013041257858,
+    "oof_max": 0.9794809818267822,
+    "test_min": 0.015768500044941902,
+    "test_max": 0.9781280755996704,
+    "family": "tfm",
+    "scale": 1.5
+  },
+  {
+    "index": 125,
+    "name": "tfm_exaone",
+    "source_tag": "tfm",
+    "files": [
+      "tfm/oof_exaone.npy",
+      "tfm/test_exaone.npy"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9585570588764978,
+    "oof_min": 0.009183214977383614,
+    "oof_max": 0.9802477955818176,
+    "test_min": 0.014448649249970913,
+    "test_max": 0.9786877036094666,
+    "family": "tfm",
+    "scale": 1.5
+  },
+  {
+    "index": 126,
+    "name": "tfm_kumolarge",
+    "source_tag": "tfm",
+    "files": [
+      "tfm/oof_kumolarge.npy",
+      "tfm/test_kumolarge.npy"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.960036289407762,
+    "oof_min": 0.010707973502576351,
+    "oof_max": 0.9917952418327332,
+    "test_min": 0.010707230307161808,
+    "test_max": 0.989604651927948,
+    "family": "tfm",
+    "scale": 1.5
+  },
+  {
+    "index": 127,
+    "name": "tfm_kumosmall",
+    "source_tag": "tfm",
+    "files": [
+      "tfm/oof_kumosmall.npy",
+      "tfm/test_kumosmall.npy"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9584836353020305,
+    "oof_min": 0.014967880211770535,
+    "oof_max": 0.9815819263458252,
+    "test_min": 0.01716962829232216,
+    "test_max": 0.9789527058601379,
+    "family": "tfm",
+    "scale": 1.5
+  },
+  {
+    "index": 128,
+    "name": "tfm_limix2",
+    "source_tag": "tfm",
+    "files": [
+      "tfm/oof_limix2.npy",
+      "tfm/test_limix2.npy"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9584738798380872,
+    "oof_min": 0.017889447510242462,
+    "oof_max": 0.9735026359558105,
+    "test_min": 0.01807384565472603,
+    "test_max": 0.9721669554710388,
+    "family": "tfm",
+    "scale": 1.5
+  },
+  {
+    "index": 129,
+    "name": "tfm_mitra2",
+    "source_tag": "tfm",
+    "files": [
+      "tfm/oof_mitra2.npy",
+      "tfm/test_mitra2.npy"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9570748881951693,
+    "oof_min": 0.01779307797551155,
+    "oof_max": 0.9819979071617126,
+    "test_min": 0.018613992258906364,
+    "test_max": 0.9806468486785889,
+    "family": "tfm",
+    "scale": 1.5
+  },
+  {
+    "index": 130,
+    "name": "tfm_realmlp",
+    "source_tag": "tfm",
+    "files": [
+      "tfm/oof_realmlp.npy",
+      "tfm/test_realmlp.npy"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9593114544984698,
+    "oof_min": 0.003215240314602852,
+    "oof_max": 0.9947477579116821,
+    "test_min": 0.00464208610355854,
+    "test_max": 0.9919306039810181,
+    "family": "tfm",
+    "scale": 1.5
+  },
+  {
+    "index": 131,
+    "name": "tfm_tabfm",
+    "source_tag": "tfm",
+    "files": [
+      "tfm/oof_tabfm.npy",
+      "tfm/test_tabfm.npy"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.958870842240179,
+    "oof_min": 0.005525332875549793,
+    "oof_max": 0.9835478663444519,
+    "test_min": 0.0073175556026399136,
+    "test_max": 0.9833165407180786,
+    "family": "tfm",
+    "scale": 1.5
+  },
+  {
+    "index": 132,
+    "name": "tfm_tabicl2",
+    "source_tag": "tfm",
+    "files": [
+      "tfm/oof_tabicl2.npy",
+      "tfm/test_tabicl2.npy"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9580880168158843,
+    "oof_min": 0.007458232808858156,
+    "oof_max": 0.9884856939315796,
+    "test_min": 0.0075970920734107494,
+    "test_max": 0.9864120483398438,
+    "family": "tfm",
+    "scale": 1.5
+  },
+  {
+    "index": 133,
+    "name": "tfm_tabpfn35",
+    "source_tag": "tfm",
+    "files": [
+      "tfm/oof_tabpfn35.npy",
+      "tfm/test_tabpfn35.npy"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9611450967635964,
+    "oof_min": 0.007861260324716568,
+    "oof_max": 0.9987092614173889,
+    "test_min": 0.009728084318339825,
+    "test_max": 0.9972686171531677,
+    "family": "tabpfn",
+    "scale": 3.0
+  },
+  {
+    "index": 134,
+    "name": "tfm_xgboost",
+    "source_tag": "tfm",
+    "files": [
+      "tfm/oof_xgboost.npy",
+      "tfm/test_xgboost.npy"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9598524042835062,
+    "oof_min": 0.0010406810324639082,
+    "oof_max": 0.9970583915710449,
+    "test_min": 0.0017803998198360205,
+    "test_max": 0.9958405494689941,
+    "family": "tfm",
+    "scale": 1.5
+  },
+  {
+    "index": 135,
+    "name": "gl2_o_tabpfn35",
+    "source_tag": "golem",
+    "files": [
+      "golem/oof_o_tabpfn35.npy",
+      "golem/test_o_tabpfn35.npy"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9610816221575669,
+    "oof_min": 0.006641584448516369,
+    "oof_max": 0.9990172386169434,
+    "test_min": 0.0069358346983790405,
+    "test_max": 0.9985464215278625,
+    "family": "tabpfn",
+    "scale": 3.0
+  },
+  {
+    "index": 136,
+    "name": "gl2_p_lgbm_auxev",
+    "source_tag": "golem",
+    "files": [
+      "golem/oof_p_lgbm_auxev.npy",
+      "golem/test_p_lgbm_auxev.npy"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9613136427374146,
+    "oof_min": 0.006625564143671935,
+    "oof_max": 0.997333212772966,
+    "test_min": 0.008774931408421721,
+    "test_max": 0.9965342223192618,
+    "family": "gbdt",
+    "scale": 1.0
+  },
+  {
+    "index": 137,
+    "name": "gl2_q_lgbm_auxev_10fold",
+    "source_tag": "golem",
+    "files": [
+      "golem/oof_q_lgbm_auxev_10fold.npy",
+      "golem/test_q_lgbm_auxev_10fold.npy"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9613875291483439,
+    "oof_min": 0.00658336552640259,
+    "oof_max": 0.9978431505118784,
+    "test_min": 0.007735764759320963,
+    "test_max": 0.9971014586978767,
+    "family": "gbdt",
+    "scale": 1.0
+  },
+  {
+    "index": 138,
+    "name": "st_cat_base",
+    "source_tag": "torres",
+    "files": [
+      "torres/preds_cat_base.npz"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9580665966141306,
+    "oof_min": 0.0010205842374377857,
+    "oof_max": 0.9982389939380188,
+    "test_min": 0.001840745367541142,
+    "test_max": 0.9972196509065263,
+    "family": "gbdt",
+    "scale": 1.0
+  },
+  {
+    "index": 139,
+    "name": "st_cat_tuned",
+    "source_tag": "torres",
+    "files": [
+      "torres/preds_cat_tuned.npz"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9585226291518819,
+    "oof_min": 0.001778685909722561,
+    "oof_max": 0.9974802947816194,
+    "test_min": 0.0014172682597907004,
+    "test_max": 0.9975526693811645,
+    "family": "gbdt",
+    "scale": 1.0
+  },
+  {
+    "index": 140,
+    "name": "st_e10_sparselr_lr",
+    "source_tag": "torres",
+    "files": [
+      "torres/preds_e10_sparselr_lr.npz"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9581060870424696,
+    "oof_min": 0.0014618329483056106,
+    "oof_max": 0.9971894629950441,
+    "test_min": 0.001739464876010944,
+    "test_max": 0.9960865838655992,
+    "family": "gbdt",
+    "scale": 1.0
+  },
+  {
+    "index": 141,
+    "name": "st_e11_knn_cat",
+    "source_tag": "torres",
+    "files": [
+      "torres/preds_e11_knn_cat.npz"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9598617653800258,
+    "oof_min": 0.0034741713155453245,
+    "oof_max": 0.992234155740172,
+    "test_min": 0.006107173109509691,
+    "test_max": 0.9907517161988517,
+    "family": "gbdt",
+    "scale": 1.0
+  },
+  {
+    "index": 142,
+    "name": "st_e11_knn_lgb",
+    "source_tag": "torres",
+    "files": [
+      "torres/preds_e11_knn_lgb.npz"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9600652132723024,
+    "oof_min": 0.007605960498214957,
+    "oof_max": 0.9916005879173637,
+    "test_min": 0.010485492584922393,
+    "test_max": 0.9883462265120964,
+    "family": "gbdt",
+    "scale": 1.0
+  },
+  {
+    "index": 143,
+    "name": "st_e11_knn_xgb",
+    "source_tag": "torres",
+    "files": [
+      "torres/preds_e11_knn_xgb.npz"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9600935741130933,
+    "oof_min": 0.007126410026103258,
+    "oof_max": 0.9917268753051758,
+    "test_min": 0.008058843319304287,
+    "test_max": 0.9894590079784393,
+    "family": "gbdt",
+    "scale": 1.0
+  },
+  {
+    "index": 144,
+    "name": "st_e12_route_cat",
+    "source_tag": "torres",
+    "files": [
+      "torres/preds_e12_route_cat.npz"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9609777003859244,
+    "oof_min": 0.0036475336616342657,
+    "oof_max": 0.9957031932419499,
+    "test_min": 0.005689834925385872,
+    "test_max": 0.9945430541402301,
+    "family": "gbdt",
+    "scale": 1.0
+  },
+  {
+    "index": 145,
+    "name": "st_e12_route_lgb",
+    "source_tag": "torres",
+    "files": [
+      "torres/preds_e12_route_lgb.npz"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9610724200330432,
+    "oof_min": 0.0072829012200891175,
+    "oof_max": 0.9970296045634996,
+    "test_min": 0.0094334029093487,
+    "test_max": 0.9961407897077668,
+    "family": "gbdt",
+    "scale": 1.0
+  },
+  {
+    "index": 146,
+    "name": "st_e12_route_xgb",
+    "source_tag": "torres",
+    "files": [
+      "torres/preds_e12_route_xgb.npz"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9610834344060386,
+    "oof_min": 0.005069676786661148,
+    "oof_max": 0.9984706044197083,
+    "test_min": 0.0063443873077631,
+    "test_max": 0.9976649731397629,
+    "family": "gbdt",
+    "scale": 1.0
+  },
+  {
+    "index": 147,
+    "name": "st_e13_realmlp_realmlp",
+    "source_tag": "torres",
+    "files": [
+      "torres/preds_e13_realmlp_realmlp.npz"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.961237826508596,
+    "oof_min": 0.002329787705093622,
+    "oof_max": 0.9993460774421692,
+    "test_min": 0.004244888026732951,
+    "test_max": 0.9980220645666122,
+    "family": "mlp",
+    "scale": 1.0
+  },
+  {
+    "index": 148,
+    "name": "st_e14_rmlpseeds_realmlp",
+    "source_tag": "torres",
+    "files": [
+      "torres/preds_e14_rmlpseeds_realmlp.npz"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9612532044087678,
+    "oof_min": 0.002709356602281332,
+    "oof_max": 0.9989712715148926,
+    "test_min": 0.0043632918503135444,
+    "test_max": 0.997973820567131,
+    "family": "mlp",
+    "scale": 1.0
+  },
+  {
+    "index": 149,
+    "name": "st_e14_seed2026",
+    "source_tag": "torres",
+    "files": [
+      "torres/preds_e14_seed2026.npz"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9611920697271565,
+    "oof_min": 0.0025737809482961893,
+    "oof_max": 0.9988285899162292,
+    "test_min": 0.004200404800940305,
+    "test_max": 0.9979008734226227,
+    "family": "gbdt",
+    "scale": 1.0
+  },
+  {
+    "index": 150,
+    "name": "st_e14_seed7",
+    "source_tag": "torres",
+    "files": [
+      "torres/preds_e14_seed7.npz"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.96120211314264,
+    "oof_min": 0.002707766368985176,
+    "oof_max": 0.9989321827888489,
+    "test_min": 0.004430453816894442,
+    "test_max": 0.9979491680860519,
+    "family": "gbdt",
+    "scale": 1.0
+  },
+  {
+    "index": 151,
+    "name": "st_e14_seed77",
+    "source_tag": "torres",
+    "files": [
+      "torres/preds_e14_seed77.npz"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.961219091552107,
+    "oof_min": 0.002553521189838648,
+    "oof_max": 0.9989579916000366,
+    "test_min": 0.004199692280963063,
+    "test_max": 0.9981117844581604,
+    "family": "gbdt",
+    "scale": 1.0
+  },
+  {
+    "index": 152,
+    "name": "st_e14_seed777",
+    "source_tag": "torres",
+    "files": [
+      "torres/preds_e14_seed777.npz"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9611908180730746,
+    "oof_min": 0.002223255578428507,
+    "oof_max": 0.998791515827179,
+    "test_min": 0.004149219079408795,
+    "test_max": 0.9980401694774628,
+    "family": "gbdt",
+    "scale": 1.0
+  },
+  {
+    "index": 153,
+    "name": "st_e1_allcat_cat",
+    "source_tag": "torres",
+    "files": [
+      "torres/preds_e1_allcat_cat.npz"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9587566395552152,
+    "oof_min": 0.0017223991527310354,
+    "oof_max": 0.9958788503803813,
+    "test_min": 0.0019892906298152125,
+    "test_max": 0.9930760228045233,
+    "family": "gbdt",
+    "scale": 1.0
+  },
+  {
+    "index": 154,
+    "name": "st_e2_origfeat_cat",
+    "source_tag": "torres",
+    "files": [
+      "torres/preds_e2_origfeat_cat.npz"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9594894539341363,
+    "oof_min": 0.0015590336537412962,
+    "oof_max": 0.9964597862726006,
+    "test_min": 0.0016159902074722723,
+    "test_max": 0.9947083032951418,
+    "family": "gbdt",
+    "scale": 1.0
+  },
+  {
+    "index": 155,
+    "name": "st_e2_origfeat_lgb",
+    "source_tag": "torres",
+    "files": [
+      "torres/preds_e2_origfeat_lgb.npz"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9598622306913723,
+    "oof_min": 0.0023901128423613987,
+    "oof_max": 0.9925106093918477,
+    "test_min": 0.0042632919603172795,
+    "test_max": 0.9911188246305317,
+    "family": "gbdt",
+    "scale": 1.0
+  },
+  {
+    "index": 156,
+    "name": "st_e2_origfeat_xgb",
+    "source_tag": "torres",
+    "files": [
+      "torres/preds_e2_origfeat_xgb.npz"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9598988766789661,
+    "oof_min": 0.003309978637844324,
+    "oof_max": 0.9931777715682983,
+    "test_min": 0.004277741303667426,
+    "test_max": 0.991229772567749,
+    "family": "gbdt",
+    "scale": 1.0
+  },
+  {
+    "index": 157,
+    "name": "st_e3_origconcat_cat",
+    "source_tag": "torres",
+    "files": [
+      "torres/preds_e3_origconcat_cat.npz"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9586515736793515,
+    "oof_min": 0.0008903586098599637,
+    "oof_max": 0.9984831010858431,
+    "test_min": 0.0006677015331789402,
+    "test_max": 0.9979200477687289,
+    "family": "gbdt",
+    "scale": 1.0
+  },
+  {
+    "index": 158,
+    "name": "st_e3_origconcat_lgb",
+    "source_tag": "torres",
+    "files": [
+      "torres/preds_e3_origconcat_lgb.npz"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9588833521302651,
+    "oof_min": 0.0030960734026960063,
+    "oof_max": 0.9916612593251759,
+    "test_min": 0.0038916593616153076,
+    "test_max": 0.9907011881409639,
+    "family": "gbdt",
+    "scale": 1.0
+  },
+  {
+    "index": 159,
+    "name": "st_e3_origconcat_xgb",
+    "source_tag": "torres",
+    "files": [
+      "torres/preds_e3_origconcat_xgb.npz"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9591239334795593,
+    "oof_min": 0.0015503080794587731,
+    "oof_max": 0.9949495792388916,
+    "test_min": 0.0020391136058606207,
+    "test_max": 0.9937489479780197,
+    "family": "gbdt",
+    "scale": 1.0
+  },
+  {
+    "index": 160,
+    "name": "st_e5_origpred_cat",
+    "source_tag": "torres",
+    "files": [
+      "torres/preds_e5_origpred_cat.npz"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9598231840702015,
+    "oof_min": 0.005205038020286012,
+    "oof_max": 0.9938505481826618,
+    "test_min": 0.005848791379887735,
+    "test_max": 0.9923284069804825,
+    "family": "gbdt",
+    "scale": 1.0
+  },
+  {
+    "index": 161,
+    "name": "st_e5_origpred_lgb",
+    "source_tag": "torres",
+    "files": [
+      "torres/preds_e5_origpred_lgb.npz"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9600903685503174,
+    "oof_min": 0.00745846086192137,
+    "oof_max": 0.9911177631594568,
+    "test_min": 0.009290649898768984,
+    "test_max": 0.9887876606343297,
+    "family": "gbdt",
+    "scale": 1.0
+  },
+  {
+    "index": 162,
+    "name": "st_e5_origpred_xgb",
+    "source_tag": "torres",
+    "files": [
+      "torres/preds_e5_origpred_xgb.npz"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.960109170088642,
+    "oof_min": 0.005222138948738575,
+    "oof_max": 0.9918367266654968,
+    "test_min": 0.007804488530382514,
+    "test_max": 0.9895793050527573,
+    "family": "gbdt",
+    "scale": 1.0
+  },
+  {
+    "index": 163,
+    "name": "st_e6_origwide_cat",
+    "source_tag": "torres",
+    "files": [
+      "torres/preds_e6_origwide_cat.npz"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9594528057737761,
+    "oof_min": 0.0011788605040101644,
+    "oof_max": 0.9949020110400992,
+    "test_min": 0.0016840180051225463,
+    "test_max": 0.9938847034009428,
+    "family": "gbdt",
+    "scale": 1.0
+  },
+  {
+    "index": 164,
+    "name": "st_e6_origwide_lgb",
+    "source_tag": "torres",
+    "files": [
+      "torres/preds_e6_origwide_lgb.npz"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9596609366519493,
+    "oof_min": 0.00372787071134173,
+    "oof_max": 0.9908353743942471,
+    "test_min": 0.00582007331772485,
+    "test_max": 0.9899162549089089,
+    "family": "gbdt",
+    "scale": 1.0
+  },
+  {
+    "index": 165,
+    "name": "st_e6_origwide_xgb",
+    "source_tag": "torres",
+    "files": [
+      "torres/preds_e6_origwide_xgb.npz"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9596214894057878,
+    "oof_min": 0.004472936503589153,
+    "oof_max": 0.992077648639679,
+    "test_min": 0.005545449792407453,
+    "test_max": 0.9905612021684647,
+    "family": "gbdt",
+    "scale": 1.0
+  },
+  {
+    "index": 166,
+    "name": "st_e7_combo_cat",
+    "source_tag": "torres",
+    "files": [
+      "torres/preds_e7_combo_cat.npz"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.959885388390161,
+    "oof_min": 0.0049677579951951205,
+    "oof_max": 0.99376842184964,
+    "test_min": 0.006373637909311666,
+    "test_max": 0.9909468597676616,
+    "family": "gbdt",
+    "scale": 1.0
+  },
+  {
+    "index": 167,
+    "name": "st_e8_tuned_cat",
+    "source_tag": "torres",
+    "files": [
+      "torres/preds_e8_tuned_cat.npz"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9599129965102222,
+    "oof_min": 0.00622124160273238,
+    "oof_max": 0.9926326260848555,
+    "test_min": 0.006718143930099508,
+    "test_max": 0.9908248553529009,
+    "family": "gbdt",
+    "scale": 1.0
+  },
+  {
+    "index": 168,
+    "name": "st_e8_tuned_lgb",
+    "source_tag": "torres",
+    "files": [
+      "torres/preds_e8_tuned_lgb.npz"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9600596465209694,
+    "oof_min": 0.0061632670253607075,
+    "oof_max": 0.9920267289652117,
+    "test_min": 0.008357362598633398,
+    "test_max": 0.9894756729334431,
+    "family": "gbdt",
+    "scale": 1.0
+  },
+  {
+    "index": 169,
+    "name": "st_e8_tuned_xgb",
+    "source_tag": "torres",
+    "files": [
+      "torres/preds_e8_tuned_xgb.npz"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9600663366462641,
+    "oof_min": 0.0050867414101958275,
+    "oof_max": 0.9935431480407715,
+    "test_min": 0.006053077871911228,
+    "test_max": 0.9911336004734039,
+    "family": "gbdt",
+    "scale": 1.0
+  },
+  {
+    "index": 170,
+    "name": "st_e9_mlp_mlp",
+    "source_tag": "torres",
+    "files": [
+      "torres/preds_e9_mlp_mlp.npz"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9586751437319302,
+    "oof_min": 0.0006323623238131404,
+    "oof_max": 0.9949944019317627,
+    "test_min": 0.0012449236528482288,
+    "test_max": 0.9950160682201385,
+    "family": "mlp",
+    "scale": 1.0
+  },
+  {
+    "index": 171,
+    "name": "st_lgb_base",
+    "source_tag": "torres",
+    "files": [
+      "torres/preds_lgb_base.npz"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9586612506919476,
+    "oof_min": 0.004561974692123672,
+    "oof_max": 0.9906211566014717,
+    "test_min": 0.00461292990503188,
+    "test_max": 0.986426370421562,
+    "family": "gbdt",
+    "scale": 1.0
+  },
+  {
+    "index": 172,
+    "name": "st_lgb_raw",
+    "source_tag": "torres",
+    "files": [
+      "torres/preds_lgb_raw.npz"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9588862777414193,
+    "oof_min": 0.002289621350907139,
+    "oof_max": 0.9929625905724985,
+    "test_min": 0.0034676050115118196,
+    "test_max": 0.9882772855332931,
+    "family": "gbdt",
+    "scale": 1.0
+  },
+  {
+    "index": 173,
+    "name": "st_lgb_tuned",
+    "source_tag": "torres",
+    "files": [
+      "torres/preds_lgb_tuned.npz"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9588681322502105,
+    "oof_min": 0.004703022431404993,
+    "oof_max": 0.9908342770517901,
+    "test_min": 0.004948423418036466,
+    "test_max": 0.9895393880173706,
+    "family": "gbdt",
+    "scale": 1.0
+  },
+  {
+    "index": 174,
+    "name": "st_xgb_base",
+    "source_tag": "torres",
+    "files": [
+      "torres/preds_xgb_base.npz"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9583584830463077,
+    "oof_min": 0.0014593369560316205,
+    "oof_max": 0.9977072477340698,
+    "test_min": 0.002053011965472251,
+    "test_max": 0.9957122802734375,
+    "family": "gbdt",
+    "scale": 1.0
+  },
+  {
+    "index": 175,
+    "name": "st_xgb_tuned",
+    "source_tag": "torres",
+    "files": [
+      "torres/preds_xgb_tuned.npz"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.958987391802413,
+    "oof_min": 0.004183946177363396,
+    "oof_max": 0.9944539666175842,
+    "test_min": 0.0037990479031577706,
+    "test_max": 0.9931734800338745,
+    "family": "gbdt",
+    "scale": 1.0
+  },
+  {
+    "index": 176,
+    "name": "am_forge_cat",
+    "source_tag": "forge",
+    "files": [
+      "forge/oof_forge_cat.npy",
+      "forge/test_forge_cat.npy"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9609082114594042,
+    "oof_min": 0.0030213231220841408,
+    "oof_max": 0.9970194101333618,
+    "test_min": 0.005717962048947811,
+    "test_max": 0.9958134293556213,
+    "family": "gbdt",
+    "scale": 1.0
+  },
+  {
+    "index": 177,
+    "name": "am_forge_ghost_xt",
+    "source_tag": "forge",
+    "files": [
+      "forge/oof_forge_ghost_xt.npy",
+      "forge/test_forge_ghost_xt.npy"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9609196902084218,
+    "oof_min": 0.002944685285910964,
+    "oof_max": 0.9979553818702698,
+    "test_min": 0.00351835903711617,
+    "test_max": 0.9975544810295105,
+    "family": "gbdt",
+    "scale": 1.0
+  },
+  {
+    "index": 178,
+    "name": "am_forge_lgbm",
+    "source_tag": "forge",
+    "files": [
+      "forge/oof_forge_lgbm.npy",
+      "forge/test_forge_lgbm.npy"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9610369084074004,
+    "oof_min": 0.005625966936349869,
+    "oof_max": 0.9973932504653931,
+    "test_min": 0.007687943987548351,
+    "test_max": 0.9966368079185486,
+    "family": "gbdt",
+    "scale": 1.0
+  },
+  {
+    "index": 179,
+    "name": "am_forge_lgbm_xt",
+    "source_tag": "forge",
+    "files": [
+      "forge/oof_forge_lgbm_xt.npy",
+      "forge/test_forge_lgbm_xt.npy"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9609032171016165,
+    "oof_min": 0.003024360630661249,
+    "oof_max": 0.9974408149719238,
+    "test_min": 0.003554691793397069,
+    "test_max": 0.99703449010849,
+    "family": "gbdt",
+    "scale": 1.0
+  },
+  {
+    "index": 180,
+    "name": "am_forge_realmlp",
+    "source_tag": "forge",
+    "files": [
+      "forge/oof_forge_realmlp.npy",
+      "forge/test_forge_realmlp.npy"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9612202200372427,
+    "oof_min": 0.0013469118857756257,
+    "oof_max": 0.9995680451393127,
+    "test_min": 0.0028292019851505756,
+    "test_max": 0.9992918968200684,
+    "family": "mlp",
+    "scale": 1.0
+  },
+  {
+    "index": 181,
+    "name": "am_forge_xgb",
+    "source_tag": "forge",
+    "files": [
+      "forge/oof_forge_xgb.npy",
+      "forge/test_forge_xgb.npy"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9610469129158827,
+    "oof_min": 0.005338369403034449,
+    "oof_max": 0.9977028965950012,
+    "test_min": 0.007023293524980545,
+    "test_max": 0.9972707033157349,
+    "family": "gbdt",
+    "scale": 1.0
+  },
+  {
+    "index": 182,
+    "name": "ab_cat_v3",
+    "source_tag": "abdullah",
+    "files": [
+      "abdullah/cat_v3_oof.csv",
+      "abdullah/cat_v3_test.csv"
+    ],
+    "alignment": "id aligned",
+    "input_representation": "probability",
+    "oof_auc": 0.9613958558260222,
+    "oof_min": 0.0045587564154068,
+    "oof_max": 0.9961258002147424,
+    "test_min": 0.0063282853711395,
+    "test_max": 0.9954742054020308,
+    "family": "gbdt",
+    "scale": 1.0
+  },
+  {
+    "index": 183,
+    "name": "ab_tabpfn_catfd10",
+    "source_tag": "abdullah",
+    "files": [
+      "abdullah/tabpfn_catfd10_oof.csv",
+      "abdullah/tabpfn_catfd10_test.csv"
+    ],
+    "alignment": "id aligned",
+    "input_representation": "probability",
+    "oof_auc": 0.9615956585366203,
+    "oof_min": 0.006628872640557,
+    "oof_max": 0.9984569591875456,
+    "test_min": 0.0065596785271155,
+    "test_max": 0.9981066337834462,
+    "family": "tabpfn",
+    "scale": 3.0
+  },
+  {
+    "index": 184,
+    "name": "ab_tabpfn_raw",
+    "source_tag": "abdullah",
+    "files": [
+      "abdullah/tabpfn_raw_oof.csv",
+      "abdullah/tabpfn_raw_test.csv"
+    ],
+    "alignment": "id aligned",
+    "input_representation": "probability",
+    "oof_auc": 0.9608722234599307,
+    "oof_min": 0.0069863297976553,
+    "oof_max": 0.9991598129272462,
+    "test_min": 0.0074099395424127,
+    "test_max": 0.9978829845786096,
+    "family": "tabpfn",
+    "scale": 3.0
+  },
+  {
+    "index": 185,
+    "name": "ab_tabpfn_te_cnt",
+    "source_tag": "abdullah",
+    "files": [
+      "abdullah/tabpfn_te_cnt_oof.csv",
+      "abdullah/tabpfn_te_cnt_test.csv"
+    ],
+    "alignment": "id aligned",
+    "input_representation": "probability",
+    "oof_auc": 0.9613760662005102,
+    "oof_min": 0.0066885192618696,
+    "oof_max": 0.998518629441754,
+    "test_min": 0.0068755625509078,
+    "test_max": 0.998335143698172,
+    "family": "tabpfn",
+    "scale": 3.0
+  },
+  {
+    "index": 186,
+    "name": "ab_xgb_v3",
+    "source_tag": "abdullah",
+    "files": [
+      "abdullah/xgb_v3_oof.csv",
+      "abdullah/xgb_v3_test.csv"
+    ],
+    "alignment": "id aligned",
+    "input_representation": "probability",
+    "oof_auc": 0.9613773145768192,
+    "oof_min": 0.0045924806036055,
+    "oof_max": 0.9974213242530824,
+    "test_min": 0.0054376213520299,
+    "test_max": 0.99697345495224,
+    "family": "gbdt",
+    "scale": 1.0
+  },
+  {
+    "index": 187,
+    "name": "km_cat_w1",
+    "source_tag": "koumei",
+    "files": [
+      "koumei/oof_cat_w1.npy",
+      "koumei/test_cat_w1.npy"
+    ],
+    "alignment": "verified separate train_ids_folds.csv and test_ids.csv",
+    "input_representation": "probability",
+    "oof_auc": 0.9612225429106187,
+    "oof_min": 0.0033322221133857965,
+    "oof_max": 0.9958763122558594,
+    "test_min": 0.005623519420623779,
+    "test_max": 0.9943316578865051,
+    "family": "gbdt",
+    "scale": 1.0
+  },
+  {
+    "index": 188,
+    "name": "km_lgb_w1",
+    "source_tag": "koumei",
+    "files": [
+      "koumei/oof_lgb_w1.npy",
+      "koumei/test_lgb_w1.npy"
+    ],
+    "alignment": "verified separate train_ids_folds.csv and test_ids.csv",
+    "input_representation": "probability",
+    "oof_auc": 0.9611976582723698,
+    "oof_min": 0.007241036277264357,
+    "oof_max": 0.9971213340759277,
+    "test_min": 0.008642267435789108,
+    "test_max": 0.9966294765472412,
+    "family": "gbdt",
+    "scale": 1.0
+  },
+  {
+    "index": 189,
+    "name": "km_rmlp_f_nc",
+    "source_tag": "koumei",
+    "files": [
+      "koumei/oof_rmlp_f_nc.npy",
+      "koumei/test_rmlp_f_nc.npy"
+    ],
+    "alignment": "verified separate train_ids_folds.csv and test_ids.csv",
+    "input_representation": "probability",
+    "oof_auc": 0.9612953642066926,
+    "oof_min": 0.001473648939281702,
+    "oof_max": 0.9996410608291626,
+    "test_min": 0.003128527896478772,
+    "test_max": 0.9992687106132507,
+    "family": "mlp",
+    "scale": 1.0
+  },
+  {
+    "index": 190,
+    "name": "km_tabicl_fdcat_c250k",
+    "source_tag": "koumei",
+    "files": [
+      "koumei/oof_tabicl_fdcat_c250k.npy",
+      "koumei/test_tabicl_fdcat_c250k.npy"
+    ],
+    "alignment": "verified separate train_ids_folds.csv and test_ids.csv",
+    "input_representation": "probability",
+    "oof_auc": 0.9572811886977918,
+    "oof_min": 0.005656533874571323,
+    "oof_max": 0.9905955195426941,
+    "test_min": 0.006293179467320442,
+    "test_max": 0.9886972904205322,
+    "family": "tfm",
+    "scale": 1.5
+  },
+  {
+    "index": 191,
+    "name": "km_tabm_bcd_rc_v2",
+    "source_tag": "koumei",
+    "files": [
+      "koumei/oof_tabm_bcd_rc_v2.npy",
+      "koumei/test_tabm_bcd_rc_v2.npy"
+    ],
+    "alignment": "verified separate train_ids_folds.csv and test_ids.csv",
+    "input_representation": "probability",
+    "oof_auc": 0.9607676145768227,
+    "oof_min": 0.0015677498886361718,
+    "oof_max": 0.9995477795600891,
+    "test_min": 0.004472349304705858,
+    "test_max": 0.9988237619400024,
+    "family": "tfm",
+    "scale": 1.5
+  },
+  {
+    "index": 192,
+    "name": "km_tabpfn_catfd10",
+    "source_tag": "koumei",
+    "files": [
+      "koumei/oof_tabpfn_catfd10.npy",
+      "koumei/test_tabpfn_catfd10.npy"
+    ],
+    "alignment": "verified separate train_ids_folds.csv and test_ids.csv",
+    "input_representation": "probability",
+    "oof_auc": 0.9611776066816022,
+    "oof_min": 0.004641275852918625,
+    "oof_max": 0.9989877343177795,
+    "test_min": 0.006483844947069883,
+    "test_max": 0.9982411861419678,
+    "family": "tabpfn",
+    "scale": 3.0
+  },
+  {
+    "index": 193,
+    "name": "km_xgb_w1",
+    "source_tag": "koumei",
+    "files": [
+      "koumei/oof_xgb_w1.npy",
+      "koumei/test_xgb_w1.npy"
+    ],
+    "alignment": "verified separate train_ids_folds.csv and test_ids.csv",
+    "input_representation": "probability",
+    "oof_auc": 0.9611967454001425,
+    "oof_min": 0.003901200834661722,
+    "oof_max": 0.9983554482460022,
+    "test_min": 0.005561579018831253,
+    "test_max": 0.9980080127716064,
+    "family": "gbdt",
+    "scale": 1.0
+  },
+  {
+    "index": 194,
+    "name": "s7_lgb_cpu_strong",
+    "source_tag": "sachith",
+    "files": [
+      "sachith/lgb_cpu_strong.npz"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9610831988988684,
+    "oof_min": 0.0071361578635799,
+    "oof_max": 0.9977465787464928,
+    "test_min": 0.0096055421067346,
+    "test_max": 0.9960978291122724,
+    "family": "gbdt",
+    "scale": 1.0
+  },
+  {
+    "index": 195,
+    "name": "s7_xgb_A_auxall",
+    "source_tag": "sachith",
+    "files": [
+      "sachith/xgb_A_auxall.npz"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.960915681914045,
+    "oof_min": 0.0050707715563476086,
+    "oof_max": 0.9988746047019958,
+    "test_min": 0.007315138587728143,
+    "test_max": 0.9969455003738403,
+    "family": "gbdt",
+    "scale": 1.0
+  },
+  {
+    "index": 196,
+    "name": "kr_rmlp_route_ogaux",
+    "source_tag": "kratosyan",
+    "files": [
+      "kratosyan/rmlp_route_ogaux.npz"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9610171043505817,
+    "oof_min": 0.0025918791070580482,
+    "oof_max": 0.9995404481887817,
+    "test_min": 0.005145019385963678,
+    "test_max": 0.99783855676651,
+    "family": "mlp",
+    "scale": 1.0
+  },
+  {
+    "index": 197,
+    "name": "kr_xgb_route_ogaux",
+    "source_tag": "kratosyan",
+    "files": [
+      "kratosyan/xgb_route_ogaux.npz"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9610392064119146,
+    "oof_min": 0.004707567859441042,
+    "oof_max": 0.9989587068557739,
+    "test_min": 0.0056485808454453945,
+    "test_max": 0.9984410405158997,
+    "family": "gbdt",
+    "scale": 1.0
+  },
+  {
+    "index": 198,
+    "name": "kg_lgb",
+    "source_tag": "kagankoral",
+    "files": [
+      "kagankoral/oof_members.csv",
+      "kagankoral/test_members.csv"
+    ],
+    "alignment": "id aligned",
+    "input_representation": "probability",
+    "oof_auc": 0.9608214818891523,
+    "oof_min": 0.0052366833555301,
+    "oof_max": 0.9983356275544196,
+    "test_min": 0.007370146087729,
+    "test_max": 0.9967842199641348,
+    "family": "gbdt",
+    "scale": 1.0
+  },
+  {
+    "index": 199,
+    "name": "kg_xgb",
+    "source_tag": "kagankoral",
+    "files": [
+      "kagankoral/oof_members.csv",
+      "kagankoral/test_members.csv"
+    ],
+    "alignment": "id aligned",
+    "input_representation": "probability",
+    "oof_auc": 0.96079184525795,
+    "oof_min": 0.0037950687110424,
+    "oof_max": 0.9987419247627258,
+    "test_min": 0.0063358698971569,
+    "test_max": 0.9976813197135924,
+    "family": "gbdt",
+    "scale": 1.0
+  },
+  {
+    "index": 200,
+    "name": "kg_cat",
+    "source_tag": "kagankoral",
+    "files": [
+      "kagankoral/oof_members.csv",
+      "kagankoral/test_members.csv"
+    ],
+    "alignment": "id aligned",
+    "input_representation": "probability",
+    "oof_auc": 0.960777906391223,
+    "oof_min": 0.0027891855651945,
+    "oof_max": 0.997937438175072,
+    "test_min": 0.0031794854681301,
+    "test_max": 0.9955271948932938,
+    "family": "gbdt",
+    "scale": 1.0
+  },
+  {
+    "index": 201,
+    "name": "kg_cat_allcat",
+    "source_tag": "kagankoral",
+    "files": [
+      "kagankoral/oof_members.csv",
+      "kagankoral/test_members.csv"
+    ],
+    "alignment": "id aligned",
+    "input_representation": "probability",
+    "oof_auc": 0.9607992447852228,
+    "oof_min": 0.0020896044129936,
+    "oof_max": 0.99620890790448,
+    "test_min": 0.0048709725394998,
+    "test_max": 0.9947253355729906,
+    "family": "gbdt",
+    "scale": 1.0
+  },
+  {
+    "index": 202,
+    "name": "kg_realmlp",
+    "source_tag": "kagankoral",
+    "files": [
+      "kagankoral/oof_members.csv",
+      "kagankoral/test_members.csv"
+    ],
+    "alignment": "id aligned",
+    "input_representation": "probability",
+    "oof_auc": 0.9609792982920387,
+    "oof_min": 0.0022004030179232,
+    "oof_max": 0.9994268417358398,
+    "test_min": 0.0035238624550402,
+    "test_max": 0.99905326962471,
+    "family": "mlp",
+    "scale": 1.0
+  },
+  {
+    "index": 203,
+    "name": "yk_realmlp",
+    "source_tag": "yekenot",
+    "files": [
+      "yekenot/oof_preds.csv",
+      "yekenot/submission.csv"
+    ],
+    "alignment": "id aligned",
+    "input_representation": "probability",
+    "oof_auc": 0.9612179349120591,
+    "oof_min": 0.0019156384514644,
+    "oof_max": 0.999425768852234,
+    "test_min": 0.0030496055842377,
+    "test_max": 0.9992563724517822,
+    "family": "mlp",
+    "scale": 1.0
+  },
+  {
+    "index": 204,
+    "name": "hm_cat",
+    "source_tag": "hermengardo",
+    "files": [
+      "hermengardo/oof_train.npy",
+      "hermengardo/oof_test.npy"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9602007249630504,
+    "oof_min": 0.0005993402895491421,
+    "oof_max": 0.9995446310922355,
+    "test_min": 0.0014555054737672764,
+    "test_max": 0.9970834748132614,
+    "family": "gbdt",
+    "scale": 1.0
+  },
+  {
+    "index": 205,
+    "name": "dk_cbcat",
+    "source_tag": "allcat",
+    "files": [
+      "allcat/oof_cb_cat.npy",
+      "allcat/test_cb_cat.npy"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9606650294785717,
+    "oof_min": 0.0033245628415834033,
+    "oof_max": 0.9951824207454824,
+    "test_min": 0.005208707975631792,
+    "test_max": 0.9937130664024891,
+    "family": "gbdt",
+    "scale": 1.0
+  },
+  {
+    "index": 206,
+    "name": "av5_lgbm_champion",
+    "source_tag": "amanatar",
+    "files": [
+      "amanatar/oof_artifacts.npz"
+    ],
+    "alignment": "embedded y equals competition y; author-declared row order",
+    "input_representation": "probability",
+    "oof_auc": 0.9586678836383113,
+    "oof_min": 0.003998848409807859,
+    "oof_max": 0.9918031729126342,
+    "test_min": 0.004894297827424122,
+    "test_max": 0.9869994047389212,
+    "family": "gbdt",
+    "scale": 1.0
+  },
+  {
+    "index": 207,
+    "name": "av5_lgbm_te",
+    "source_tag": "amanatar",
+    "files": [
+      "amanatar/oof_artifacts.npz"
+    ],
+    "alignment": "embedded y equals competition y; author-declared row order",
+    "input_representation": "probability",
+    "oof_auc": 0.958012562867905,
+    "oof_min": 0.016950265911957602,
+    "oof_max": 0.9907666353335726,
+    "test_min": 0.023540732556314302,
+    "test_max": 0.9871840733182661,
+    "family": "gbdt",
+    "scale": 1.0
+  },
+  {
+    "index": 208,
+    "name": "av5_lgbm_te_rows",
+    "source_tag": "amanatar",
+    "files": [
+      "amanatar/oof_artifacts.npz"
+    ],
+    "alignment": "embedded y equals competition y; author-declared row order",
+    "input_representation": "probability",
+    "oof_auc": 0.9585680117995248,
+    "oof_min": 0.013527382361153183,
+    "oof_max": 0.9908234683263838,
+    "test_min": 0.016266177163037385,
+    "test_max": 0.9883513926614518,
+    "family": "gbdt",
+    "scale": 1.0
+  },
+  {
+    "index": 209,
+    "name": "av5_xgb_gpu",
+    "source_tag": "amanatar",
+    "files": [
+      "amanatar/oof_artifacts.npz"
+    ],
+    "alignment": "embedded y equals competition y; author-declared row order",
+    "input_representation": "probability",
+    "oof_auc": 0.958502101141759,
+    "oof_min": 0.013155400287359953,
+    "oof_max": 0.9859696924686432,
+    "test_min": 0.017894461844116447,
+    "test_max": 0.9807957410812378,
+    "family": "gbdt",
+    "scale": 1.0
+  },
+  {
+    "index": 210,
+    "name": "av5_catboost_gpu",
+    "source_tag": "amanatar",
+    "files": [
+      "amanatar/oof_artifacts.npz"
+    ],
+    "alignment": "embedded y equals competition y; author-declared row order",
+    "input_representation": "probability",
+    "oof_auc": 0.9598197302657758,
+    "oof_min": 0.0003683665961169232,
+    "oof_max": 0.9999356976228213,
+    "test_min": 0.0011405259453086004,
+    "test_max": 0.9998025229429958,
+    "family": "gbdt",
+    "scale": 1.0
+  },
+  {
+    "index": 211,
+    "name": "gpx_xgb_k10",
+    "source_tag": "extra",
+    "files": [
+      "extra/oof_xgb_k10.npy",
+      "extra/test_xgb_k10.npy"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.961255994522079,
+    "oof_min": 0.004014649428427219,
+    "oof_max": 0.9992586970329285,
+    "test_min": 0.00542137585580349,
+    "test_max": 0.9987884163856506,
+    "family": "gbdt",
+    "scale": 1.0
+  },
+  {
+    "index": 212,
+    "name": "gpx_xgb_d10_k10",
+    "source_tag": "extra",
+    "files": [
+      "extra/oof_xgb_d10_k10.npy",
+      "extra/test_xgb_d10_k10.npy"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9612577328799433,
+    "oof_min": 0.003866588929668069,
+    "oof_max": 0.998473584651947,
+    "test_min": 0.005745692644268274,
+    "test_max": 0.9977492690086365,
+    "family": "gbdt",
+    "scale": 1.0
+  },
+  {
+    "index": 213,
+    "name": "gpx_lgb_k10",
+    "source_tag": "extra",
+    "files": [
+      "extra/oof_lgb_k10.npy",
+      "extra/test_lgb_k10.npy"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9612151477288785,
+    "oof_min": 0.006298166699707508,
+    "oof_max": 0.9984456896781921,
+    "test_min": 0.007990171201527119,
+    "test_max": 0.9969338178634644,
+    "family": "gbdt",
+    "scale": 1.0
+  },
+  {
+    "index": 214,
+    "name": "gpx_cat_aux",
+    "source_tag": "extra",
+    "files": [
+      "extra/oof_cat_aux.npy",
+      "extra/test_cat_aux.npy"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9609373473735163,
+    "oof_min": 0.0029665837064385414,
+    "oof_max": 0.997028648853302,
+    "test_min": 0.003850822802633047,
+    "test_max": 0.9957191348075867,
+    "family": "gbdt",
+    "scale": 1.0
+  },
+  {
+    "index": 215,
+    "name": "gpx_cat_k10",
+    "source_tag": "extra",
+    "files": [
+      "extra/oof_cat_k10.npy",
+      "extra/test_cat_k10.npy"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9611135040467954,
+    "oof_min": 0.0027331095188856125,
+    "oof_max": 0.997883141040802,
+    "test_min": 0.005026275757700205,
+    "test_max": 0.9980891942977905,
+    "family": "gbdt",
+    "scale": 1.0
+  },
+  {
+    "index": 216,
+    "name": "gpx_gen_v1",
+    "source_tag": "extra",
+    "files": [
+      "extra/oof_gen_v1.npy",
+      "extra/test_gen_v1.npy"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9523987373039149,
+    "oof_min": 1.4081377230468206e-05,
+    "oof_max": 0.9999449253082275,
+    "test_min": 1.566050195833668e-05,
+    "test_max": 0.9998131990432739,
+    "family": "gbdt",
+    "scale": 1.0
+  },
+  {
+    "index": 217,
+    "name": "gpx_realmlp_pub_aux_k",
+    "source_tag": "extra",
+    "files": [
+      "extra/oof_realmlp_pub_aux_k.npy",
+      "extra/test_realmlp_pub_aux_k.npy"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9609155507244872,
+    "oof_min": 0.005301391705870628,
+    "oof_max": 0.9990686774253845,
+    "test_min": 0.0064603351056575775,
+    "test_max": 0.9985532164573669,
+    "family": "mlp",
+    "scale": 1.0
+  },
+  {
+    "index": 218,
+    "name": "gpx_cat_ctr_k",
+    "source_tag": "extra",
+    "files": [
+      "extra/oof_cat_ctr_k.npy",
+      "extra/test_cat_ctr_k.npy"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9610033217740362,
+    "oof_min": 0.0026077290531247854,
+    "oof_max": 0.9969473481178284,
+    "test_min": 0.00405144365504384,
+    "test_max": 0.9950424432754517,
+    "family": "gbdt",
+    "scale": 1.0
+  },
+  {
+    "index": 219,
+    "name": "gpx_tabm_v4aux",
+    "source_tag": "extra",
+    "files": [
+      "extra/oof_tabm_v4aux.npy",
+      "extra/test_tabm_v4aux.npy"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9604664616731318,
+    "oof_min": 0.003462604247033596,
+    "oof_max": 0.9998224377632141,
+    "test_min": 0.0034289900213479996,
+    "test_max": 0.9997945427894592,
+    "family": "tfm",
+    "scale": 1.5
+  },
+  {
+    "index": 220,
+    "name": "gpx_glm6_xgb_k",
+    "source_tag": "extra",
+    "files": [
+      "extra/oof_glm6_xgb_k.npy",
+      "extra/test_glm6_xgb_k.npy"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9608294463604861,
+    "oof_min": 0.00182267464697361,
+    "oof_max": 0.9990434646606445,
+    "test_min": 0.0024978145956993103,
+    "test_max": 0.9988965392112732,
+    "family": "gbdt",
+    "scale": 1.0
+  },
+  {
+    "index": 221,
+    "name": "gpx_realmlp_fa_aux_n16",
+    "source_tag": "extra",
+    "files": [
+      "extra/oof_realmlp_fa_aux_n16.npy",
+      "extra/test_realmlp_fa_aux_n16.npy"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9610708686365428,
+    "oof_min": 0.002852329285815358,
+    "oof_max": 0.9996351003646851,
+    "test_min": 0.0036709809210151434,
+    "test_max": 0.9992033243179321,
+    "family": "mlp",
+    "scale": 1.0
+  },
+  {
+    "index": 222,
+    "name": "gpx_realmlp_fa_auxev",
+    "source_tag": "extra",
+    "files": [
+      "extra/oof_realmlp_fa_auxev.npy",
+      "extra/test_realmlp_fa_auxev.npy"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9610549457114033,
+    "oof_min": 0.002594815567135811,
+    "oof_max": 0.9994612336158752,
+    "test_min": 0.0034747449681162834,
+    "test_max": 0.9991766214370728,
+    "family": "mlp",
+    "scale": 1.0
+  },
+  {
+    "index": 223,
+    "name": "gpx_realmlp_fa_aux3_k",
+    "source_tag": "extra",
+    "files": [
+      "extra/oof_realmlp_fa_aux3_k.npy",
+      "extra/test_realmlp_fa_aux3_k.npy"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9610718301745957,
+    "oof_min": 0.004315429832786322,
+    "oof_max": 0.9993671774864197,
+    "test_min": 0.004958624020218849,
+    "test_max": 0.9989821910858154,
+    "family": "mlp",
+    "scale": 1.0
+  },
+  {
+    "index": 224,
+    "name": "gpx_realmlp_vb",
+    "source_tag": "extra",
+    "files": [
+      "extra/oof_realmlp_vb.npy",
+      "extra/test_realmlp_vb.npy"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9611501512014751,
+    "oof_min": 0.0026135684456676245,
+    "oof_max": 0.9994593262672424,
+    "test_min": 0.0048580230213701725,
+    "test_max": 0.9988335967063904,
+    "family": "mlp",
+    "scale": 1.0
+  },
+  {
+    "index": 225,
+    "name": "gpx_lgb_v3_k",
+    "source_tag": "extra",
+    "files": [
+      "extra/oof_lgb_v3_k.npy",
+      "extra/test_lgb_v3_k.npy"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.961056660822738,
+    "oof_min": 0.00662813289090991,
+    "oof_max": 0.9976598024368286,
+    "test_min": 0.008144628256559372,
+    "test_max": 0.9966576099395752,
+    "family": "gbdt",
+    "scale": 1.0
+  },
+  {
+    "index": 226,
+    "name": "gpx_realmlp_fa_s7_k",
+    "source_tag": "extra",
+    "files": [
+      "extra/oof_realmlp_fa_s7_k.npy",
+      "extra/test_realmlp_fa_s7_k.npy"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9609684159611531,
+    "oof_min": 0.0029307743534445763,
+    "oof_max": 0.9991878867149353,
+    "test_min": 0.004327971953898668,
+    "test_max": 0.9990728497505188,
+    "family": "mlp",
+    "scale": 1.0
+  },
+  {
+    "index": 227,
+    "name": "gpx_realmlp_v4fa_auxfull",
+    "source_tag": "extra",
+    "files": [
+      "extra/oof_realmlp_v4fa_auxfull.npy",
+      "extra/test_realmlp_v4fa_auxfull.npy"
+    ],
+    "alignment": "author-declared train.csv/test.csv row order; no embedded id",
+    "input_representation": "probability",
+    "oof_auc": 0.9612749414577836,
+    "oof_min": 0.0035240263678133488,
+    "oof_max": 0.9989233613014221,
+    "test_min": 0.00424414686858654,
+    "test_max": 0.998818576335907,
+    "family": "mlp",
+    "scale": 1.0
+  },
+  {
+    "index": 228,
+    "name": "ka_lgb_raw_k5",
+    "source_tag": "ablation",
+    "files": [
+      "ablation/oof_lgb_raw_k5.npy",
+      "ablation/test_lgb_raw_k5.npy"
+    ],
+    "input_representation": "probability",
+    "alignment": "author-declared train/test row order; no embedded ids; OOF AUC matched",
+    "oof_auc": 0.9590410763375056,
+    "author_oof_auc": 0.959041,
+    "model": "LightGBM lr 0.03",
+    "features": "raw 21 columns",
+    "family": "gbdt",
+    "scale": 1.0
+  },
+  {
+    "index": 229,
+    "name": "ka_xgb_raw_k5",
+    "source_tag": "ablation",
+    "files": [
+      "ablation/oof_xgb_raw_k5.npy",
+      "ablation/test_xgb_raw_k5.npy"
+    ],
+    "input_representation": "probability",
+    "alignment": "author-declared train/test row order; no embedded ids; OOF AUC matched",
+    "oof_auc": 0.9588992651475903,
+    "author_oof_auc": 0.958899,
+    "model": "XGBoost lr 0.03",
+    "features": "raw 21 columns",
+    "family": "gbdt",
+    "scale": 1.0
+  },
+  {
+    "index": 230,
+    "name": "ka_cat_raw_k5",
+    "source_tag": "ablation",
+    "files": [
+      "ablation/oof_cat_raw_k5.npy",
+      "ablation/test_cat_raw_k5.npy"
+    ],
+    "input_representation": "probability",
+    "alignment": "author-declared train/test row order; no embedded ids; OOF AUC matched",
+    "oof_auc": 0.9587110731577637,
+    "author_oof_auc": 0.958711,
+    "model": "CatBoost lr 0.06",
+    "features": "raw 21 columns",
+    "family": "gbdt",
+    "scale": 1.0
+  },
+  {
+    "index": 231,
+    "name": "ka_lgb_enc3_k5",
+    "source_tag": "ablation",
+    "files": [
+      "ablation/oof_lgb_enc3_k5.npy",
+      "ablation/test_lgb_enc3_k5.npy"
+    ],
+    "input_representation": "probability",
+    "alignment": "author-declared train/test row order; no embedded ids; OOF AUC matched",
+    "oof_auc": 0.9605850312458172,
+    "author_oof_auc": 0.960585,
+    "model": "LightGBM lr 0.03",
+    "features": "raw + orig_pred + orig_te + freq + te",
+    "family": "gbdt",
+    "scale": 1.0
+  },
+  {
+    "index": 232,
+    "name": "ka_xgb_enc3_k5",
+    "source_tag": "ablation",
+    "files": [
+      "ablation/oof_xgb_enc3_k5.npy",
+      "ablation/test_xgb_enc3_k5.npy"
+    ],
+    "input_representation": "probability",
+    "alignment": "author-declared train/test row order; no embedded ids; OOF AUC matched",
+    "oof_auc": 0.9605899128142732,
+    "author_oof_auc": 0.96059,
+    "model": "XGBoost lr 0.03",
+    "features": "raw + orig_pred + orig_te + freq + te",
+    "family": "gbdt",
+    "scale": 1.0
+  },
+  {
+    "index": 233,
+    "name": "ka_cat_enc3_k5",
+    "source_tag": "ablation",
+    "files": [
+      "ablation/oof_cat_enc3_k5.npy",
+      "ablation/test_cat_enc3_k5.npy"
+    ],
+    "input_representation": "probability",
+    "alignment": "author-declared train/test row order; no embedded ids; OOF AUC matched",
+    "oof_auc": 0.960635091764044,
+    "author_oof_auc": 0.960635,
+    "model": "CatBoost lr 0.06",
+    "features": "raw + orig_pred + orig_te + freq + te",
+    "family": "gbdt",
+    "scale": 1.0
+  },
+  {
+    "index": 234,
+    "name": "ka_lgb_enc4_k5",
+    "source_tag": "ablation",
+    "files": [
+      "ablation/oof_lgb_enc4_k5.npy",
+      "ablation/test_lgb_enc4_k5.npy"
+    ],
+    "input_representation": "probability",
+    "alignment": "author-declared train/test row order; no embedded ids; OOF AUC matched",
+    "oof_auc": 0.9607308981212456,
+    "author_oof_auc": 0.960731,
+    "model": "LightGBM lr 0.03",
+    "features": "enc3 + te_pair",
+    "family": "gbdt",
+    "scale": 1.0
+  },
+  {
+    "index": 235,
+    "name": "ka_xgb_enc4_k5",
+    "source_tag": "ablation",
+    "files": [
+      "ablation/oof_xgb_enc4_k5.npy",
+      "ablation/test_xgb_enc4_k5.npy"
+    ],
+    "input_representation": "probability",
+    "alignment": "author-declared train/test row order; no embedded ids; OOF AUC matched",
+    "oof_auc": 0.9607928668595397,
+    "author_oof_auc": 0.960793,
+    "model": "XGBoost lr 0.03",
+    "features": "enc3 + te_pair",
+    "family": "gbdt",
+    "scale": 1.0
+  },
+  {
+    "index": 236,
+    "name": "ka_cat_enc4_k5",
+    "source_tag": "ablation",
+    "files": [
+      "ablation/oof_cat_enc4_k5.npy",
+      "ablation/test_cat_enc4_k5.npy"
+    ],
+    "input_representation": "probability",
+    "alignment": "author-declared train/test row order; no embedded ids; OOF AUC matched",
+    "oof_auc": 0.9608046995459745,
+    "author_oof_auc": 0.960805,
+    "model": "CatBoost lr 0.06",
+    "features": "enc3 + te_pair",
+    "family": "gbdt",
+    "scale": 1.0
+  },
+  {
+    "index": 237,
+    "name": "ka_lgb_enc4_k10",
+    "source_tag": "ablation",
+    "files": [
+      "ablation/oof_lgb_enc4_k10.npy",
+      "ablation/test_lgb_enc4_k10.npy"
+    ],
+    "input_representation": "probability",
+    "alignment": "author-declared train/test row order; no embedded ids; OOF AUC matched",
+    "oof_auc": 0.9609872426952892,
+    "author_oof_auc": 0.960987,
+    "model": "LightGBM lr 0.015",
+    "features": "enc3 + te_pair",
+    "family": "gbdt",
+    "scale": 1.0
+  },
+  {
+    "index": 238,
+    "name": "ka_xgb_enc4_k10",
+    "source_tag": "ablation",
+    "files": [
+      "ablation/oof_xgb_enc4_k10.npy",
+      "ablation/test_xgb_enc4_k10.npy"
+    ],
+    "input_representation": "probability",
+    "alignment": "author-declared train/test row order; no embedded ids; OOF AUC matched",
+    "oof_auc": 0.9609719767277582,
+    "author_oof_auc": 0.960972,
+    "model": "XGBoost lr 0.015",
+    "features": "enc3 + te_pair",
+    "family": "gbdt",
+    "scale": 1.0
+  },
+  {
+    "index": 239,
+    "name": "ka_cat_enc4_k10",
+    "source_tag": "ablation",
+    "files": [
+      "ablation/oof_cat_enc4_k10.npy",
+      "ablation/test_cat_enc4_k10.npy"
+    ],
+    "input_representation": "probability",
+    "alignment": "author-declared train/test row order; no embedded ids; OOF AUC matched",
+    "oof_auc": 0.9610220717826223,
+    "author_oof_auc": 0.961022,
+    "model": "CatBoost lr 0.04",
+    "features": "enc3 + te_pair",
+    "family": "gbdt",
+    "scale": 1.0
+  },
+  {
+    "index": 240,
+    "name": "ka_cat_allcat_v1_k5",
+    "source_tag": "ablation",
+    "files": [
+      "ablation/oof_cat_allcat_v1_k5.npy",
+      "ablation/test_cat_allcat_v1_k5.npy"
+    ],
+    "input_representation": "probability",
+    "alignment": "author-declared train/test row order; no embedded ids; OOF AUC matched",
+    "oof_auc": 0.9610948482783249,
+    "author_oof_auc": 0.961095,
+    "model": "CatBoost l2 3",
+    "features": "enc3 + te_pair, every raw column also categorical",
+    "family": "gbdt",
+    "scale": 1.0
+  },
+  {
+    "index": 241,
+    "name": "ka_cat_allcat_v2_k5",
+    "source_tag": "ablation",
+    "files": [
+      "ablation/oof_cat_allcat_v2_k5.npy",
+      "ablation/test_cat_allcat_v2_k5.npy"
+    ],
+    "input_representation": "probability",
+    "alignment": "author-declared train/test row order; no embedded ids; OOF AUC matched",
+    "oof_auc": 0.9611268942300304,
+    "author_oof_auc": 0.961127,
+    "model": "CatBoost l2 10",
+    "features": "orig_pred + orig_te + freq (no own TE), every raw column also categorical",
+    "family": "gbdt",
+    "scale": 1.0
+  },
+  {
+    "index": 242,
+    "name": "ka_realmlp_raw_s42_k5",
+    "source_tag": "ablation",
+    "files": [
+      "ablation/oof_realmlp_raw_s42_k5.npy",
+      "ablation/test_realmlp_raw_s42_k5.npy"
+    ],
+    "input_representation": "probability",
+    "alignment": "author-declared train/test row order; no embedded ids; OOF AUC matched",
+    "oof_auc": 0.9608830667596568,
+    "author_oof_auc": 0.960883,
+    "model": "RealMLP n_ens 4, flat_anneal, seed 42",
+    "features": "raw + categorical twin of every number",
+    "family": "mlp",
+    "scale": 1.0
+  },
+  {
+    "index": 243,
+    "name": "ka_realmlp_raw_s7_k5",
+    "source_tag": "ablation",
+    "files": [
+      "ablation/oof_realmlp_raw_s7_k5.npy",
+      "ablation/test_realmlp_raw_s7_k5.npy"
+    ],
+    "input_representation": "probability",
+    "alignment": "author-declared train/test row order; no embedded ids; OOF AUC matched",
+    "oof_auc": 0.9608846763738774,
+    "author_oof_auc": 0.960885,
+    "model": "RealMLP n_ens 4, flat_anneal, seed 7",
+    "features": "raw + categorical twin of every number",
+    "family": "mlp",
+    "scale": 1.0
+  },
+  {
+    "index": 244,
+    "name": "ka_realmlp_enc_k5",
+    "source_tag": "ablation",
+    "files": [
+      "ablation/oof_realmlp_enc_k5.npy",
+      "ablation/test_realmlp_enc_k5.npy"
+    ],
+    "input_representation": "probability",
+    "alignment": "author-declared train/test row order; no embedded ids; OOF AUC matched",
+    "oof_auc": 0.9609557801789202,
+    "author_oof_auc": 0.960956,
+    "model": "RealMLP n_ens 4, flat_anneal",
+    "features": "raw + twins + orig_pred + orig_te + freq + te + te_pair",
+    "family": "mlp",
+    "scale": 1.0
+  }
+]

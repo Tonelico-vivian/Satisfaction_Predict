@@ -1,0 +1,17 @@
+# Training data, public prediction downloads and generated results stay local.
+data/
+inputs/
+outputs/
+*.csv
+*.npy
+*.npz
+*.zip
+*.partial
+*.out
+*.err
+*.pyc
+__pycache__/
+.venv/
+.env
+.env.*
+.DS_Store

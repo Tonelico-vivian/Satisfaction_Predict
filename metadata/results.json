@@ -1,0 +1,112 @@
+{
+  "method": "Method 3: 245-member family-regularized stacking",
+  "public_auc": 0.96186,
+  "private_auc": 0.96238,
+  "private_rank": 106,
+  "participants": 373,
+  "feedback_recorded_date": "2026-11-13",
+  "score_source": "user_reported",
+  "original_submission_sha256": "f1b704c31df2946eb2986419882ad43c4088952e58df36b480e8607ce23917d9",
+  "meta_cv": [
+    {
+      "name": "family245_seed7",
+      "members": 245,
+      "seed": 7,
+      "C": 0.003,
+      "tol": 0.0001,
+      "auc": 0.9622263885964595,
+      "fold_auc": [
+        0.9628852788703752,
+        0.9617562275080401,
+        0.9619048922174421,
+        0.9621528266210142,
+        0.9624381623778653
+      ],
+      "iterations": [
+        134,
+        130,
+        136,
+        136,
+        127
+      ],
+      "seconds": 123.73382331151515,
+      "reused_from": null,
+      "oof_sha256": "7024d111fc15062d0e9b3967fcf889e3091817c9348da8de9edbebb3e5f3a524"
+    },
+    {
+      "name": "family245_seed13",
+      "members": 245,
+      "seed": 13,
+      "C": 0.003,
+      "tol": 0.0001,
+      "auc": 0.9622324328431843,
+      "fold_auc": [
+        0.9621146237687486,
+        0.9625373610950503,
+        0.9626138765610972,
+        0.9618540762140005,
+        0.9620457747039538
+      ],
+      "iterations": [
+        100,
+        119,
+        149,
+        136,
+        139
+      ],
+      "seconds": 108.96339686121792,
+      "reused_from": null,
+      "oof_sha256": "9076c9b61f271c2442a1fb36d22b4079655fd944d5aecdef588d7918f5bcaf04"
+    },
+    {
+      "name": "family245_seed101",
+      "members": 245,
+      "seed": 101,
+      "C": 0.003,
+      "tol": 0.0001,
+      "auc": 0.9622237101012554,
+      "fold_auc": [
+        0.9618786414907706,
+        0.9620689034753505,
+        0.962701847878065,
+        0.961779281991572,
+        0.9627117294056571
+      ],
+      "iterations": [
+        68,
+        148,
+        140,
+        91,
+        91
+      ],
+      "seconds": 81.06370249018073,
+      "reused_from": null,
+      "oof_sha256": "661a2e7c0038e102230a869997d9597a571a392f4d13d9b029c7360367ec671e"
+    }
+  ],
+  "precision_check": {
+    "name": "family245_seed7_tol1e6",
+    "members": 245,
+    "seed": 7,
+    "C": 0.003,
+    "tol": 1e-06,
+    "auc": 0.9622259875244996,
+    "fold_auc": [
+      0.9628859600861132,
+      0.9617531148671998,
+      0.961905900380331,
+      0.9621523250227296,
+      0.9624373938398993
+    ],
+    "iterations": [
+      458,
+      473,
+      427,
+      422,
+      429
+    ],
+    "seconds": 385.12770187016577,
+    "reused_from": null,
+    "oof_sha256": "7aef5311992987a302a6dae32995c62b0dde800e754fa1fb11f889e96b66e6ab"
+  }
+}

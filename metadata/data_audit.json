@@ -1,0 +1,34 @@
+{
+  "train_rows": 699635,
+  "test_rows": 299844,
+  "features": 21,
+  "numeric_features": 17,
+  "categorical_features": 4,
+  "train_missing": 292,
+  "test_missing": 130,
+  "train_missing_by_column": {
+    "Arrival Delay in Minutes": 292
+  },
+  "test_missing_by_column": {
+    "Arrival Delay in Minutes": 130
+  },
+  "positive_count": 310339,
+  "positive_rate": 0.44357272006117476,
+  "duplicate_feature_extra_rows": 0,
+  "duplicate_feature_groups": 0,
+  "conflicting_label_groups": 0,
+  "test_matching_train_feature_rows": 0,
+  "split_sizes": {
+    "fit": 447766,
+    "holdout": 139927,
+    "tune": 111942
+  },
+  "data_sha256": {
+    "test.csv": "ff7932747f27c5274de904194ac38b4d088ea4f9bb005ae74f0d619fb893a9b6",
+    "train.csv": "2313b65c74e6994f01c2628aae82d2f97aa6f74a81950172ff83864837c98b36",
+    "sample_submission.csv": "6165ecc5769962253534c2d840f26aab55dc3cc091d256bb3641bf6608194a71"
+  },
+  "grouping": "Identical raw predictors share a split/fold; id and target excluded from grouping.",
+  "eda_scope": "Associations use development rows only; holdout labels excluded.",
+  "slurm_job_id": "41073"
+}
